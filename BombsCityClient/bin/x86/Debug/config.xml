@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<GlobalConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FlowCamCfgList>
+    <FlowCamCfg>
+      <IpAddress>221.182.126.73</IpAddress>
+      <Port>14400</Port>
+      <Description />
+      <UserName>admin</UserName>
+      <Password>admin123</Password>
+    </FlowCamCfg>
+    <FlowCamCfg>
+      <IpAddress>221.182.126.73</IpAddress>
+      <Port>14500</Port>
+      <Description />
+      <UserName>admin</UserName>
+      <Password>admin123</Password>
+    </FlowCamCfg>
+  </FlowCamCfgList>
+  <ResourceCode>1171385932796104712</ResourceCode>
+  <ClusterTag>24</ClusterTag>
+  <RtPeopleUrl>http://182.140.197.109:8080/datacenter/cdata/rtPeople/push.dd</RtPeopleUrl>
+  <ParkingUrl>http://182.140.197.109:8080/datacenter/cdata/parkinglot/push.dd</ParkingUrl>
+</GlobalConfig>

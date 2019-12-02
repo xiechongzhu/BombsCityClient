@@ -1,0 +1,14 @@
+D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\BombsCityClient.exe.config
+D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\BombsCityClient.exe
+D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\BombsCityClient.pdb
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csprojAssemblyReference.cache
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.CamAddForm.resources
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.CfgForm.resources
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.MainForm.resources
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.Properties.Resources.resources
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.GenerateResource.cache
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.exe
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.pdb
+D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\NetSDKCS.dll
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.CopyComplete
+D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\System.Web.Extensions.dll
