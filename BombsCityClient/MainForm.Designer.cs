@@ -159,7 +159,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "两弹城景区客户端";
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
             this.panelTool.ResumeLayout(false);
             this.panelLog.ResumeLayout(false);
             this.groupBoxLog.ResumeLayout(false);

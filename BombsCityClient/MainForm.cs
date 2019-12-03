@@ -112,19 +112,21 @@ namespace BombsCityClient
             parkingCameraManager.DisconnectCallBack(lLoginID, pchDVRIP, nDVRPort, dwUser);
         }
 
-        private void MainForm_SizeChanged(object sender, EventArgs e)
+        protected override void WndProc(ref Message m)
         {
-            if (WindowState == FormWindowState.Minimized)
+            const int WM_SYSCOMMAND = 0x0112;
+            const int SC_MINIMIZE = 0xF020;
+            if ((int)m.WParam == SC_MINIMIZE && m.Msg == WM_SYSCOMMAND)
             {
-                Hide();
+                this.Hide();
+                return; //提前返回。拦下最小化消息。
             }
+            base.WndProc(ref m); // 这一步不能忘!
         }
 
         private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Show();
-            Activate();
-            WindowState = FormWindowState.Normal;
         }
     }
 }

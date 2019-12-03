@@ -21,6 +21,11 @@ namespace BombsCityClient
             textBoxResourceCode.Text = GlobalConfig.GetInstance().ResourceCode;
             textBoxRtPeopleUrl.Text = GlobalConfig.GetInstance().RtPeopleUrl;
             textBoxParkingUrl.Text = GlobalConfig.GetInstance().ParkingUrl;
+            textBoxParingCamAddr.Text = GlobalConfig.GetInstance().parkingCameraCfg.IpAddress;
+            textBoxParkingCamPort.Text = GlobalConfig.GetInstance().parkingCameraCfg.Port.ToString();
+            textBoxParkingCamUserName.Text = GlobalConfig.GetInstance().parkingCameraCfg.UserName;
+            textBoxParkingCamPassword.Text = GlobalConfig.GetInstance().parkingCameraCfg.Password;
+            textBoxParkingTotal.Text = GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal.ToString();
         }
 
         private void btnAddFlowCam_Click(object sender, EventArgs e)
@@ -110,6 +115,27 @@ namespace BombsCityClient
             GlobalConfig.GetInstance().ResourceCode = textBoxResourceCode.Text;
             GlobalConfig.GetInstance().RtPeopleUrl = textBoxRtPeopleUrl.Text;
             GlobalConfig.GetInstance().ParkingUrl = textBoxParkingUrl.Text;
+
+            GlobalConfig.GetInstance().parkingCameraCfg.IpAddress = textBoxParingCamAddr.Text;
+            try
+            {
+                GlobalConfig.GetInstance().parkingCameraCfg.Port = UInt32.Parse(textBoxParkingCamPort.Text);
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("停车场摄像头端口只能为数字", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            GlobalConfig.GetInstance().parkingCameraCfg.UserName = textBoxParkingCamUserName.Text;
+            GlobalConfig.GetInstance().parkingCameraCfg.Password = textBoxParkingCamPassword.Text;
+            try
+            {
+                GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal = UInt32.Parse(textBoxParkingTotal.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("停车位个数只能为数字", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
             GlobalConfig.SaveConfig();
             DialogResult = DialogResult.OK;
             Close();

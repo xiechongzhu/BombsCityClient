@@ -18,6 +18,15 @@ namespace BombsCityClient
         public String Password { get; set; }
     }
 
+    public class ParkingCameraCfg
+    {
+        public String IpAddress { get; set; }
+        public UInt32 Port { get; set; }
+        public String UserName { get; set; }
+        public String Password { get; set; }
+        public UInt32 ParkingTotal { get; set; }
+    }
+
     public class GlobalConfig
     {
         private static GlobalConfig __instance = new GlobalConfig();
@@ -27,10 +36,12 @@ namespace BombsCityClient
         public int ClusterTag { get; set; }
         public String RtPeopleUrl { get; set; }
         public String ParkingUrl { get; set; }
+        public ParkingCameraCfg parkingCameraCfg { get; set; }
 
         private GlobalConfig()
         {
             FlowCamCfgList = new List<FlowCamCfg>();
+            parkingCameraCfg = new ParkingCameraCfg();
         }
 
         public static GlobalConfig GetInstance()
@@ -51,6 +62,7 @@ namespace BombsCityClient
                 __instance.ClusterTag = __config.ClusterTag;
                 __instance.RtPeopleUrl = __config.RtPeopleUrl;
                 __instance.ParkingUrl = __config.ParkingUrl;
+                __instance.parkingCameraCfg = __config.parkingCameraCfg;
                 file.Close();
             }
             catch(Exception)
