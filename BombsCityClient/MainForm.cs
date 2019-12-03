@@ -111,5 +111,20 @@ namespace BombsCityClient
             flowCameraManager.DisconnectCallBack(lLoginID, pchDVRIP, nDVRPort, dwUser);
             parkingCameraManager.DisconnectCallBack(lLoginID, pchDVRIP, nDVRPort, dwUser);
         }
+
+        private void MainForm_SizeChanged(object sender, EventArgs e)
+        {
+            if (WindowState == FormWindowState.Minimized)
+            {
+                Hide();
+            }
+        }
+
+        private void notifyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            Show();
+            Activate();
+            WindowState = FormWindowState.Normal;
+        }
     }
 }

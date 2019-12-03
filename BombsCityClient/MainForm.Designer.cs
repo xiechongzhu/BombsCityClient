@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panelTool = new System.Windows.Forms.Panel();
             this.btnSetting = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
@@ -38,6 +40,7 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.panelTool.SuspendLayout();
             this.panelLog.SuspendLayout();
             this.groupBoxLog.SuspendLayout();
@@ -137,6 +140,13 @@
             this.columnHeader3.Text = "信息";
             this.columnHeader3.Width = 400;
             // 
+            // notifyIcon
+            // 
+            this.notifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon.Icon")));
+            this.notifyIcon.Text = "两弹城景区客户端";
+            this.notifyIcon.Visible = true;
+            this.notifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon_MouseDoubleClick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
@@ -144,10 +154,12 @@
             this.ClientSize = new System.Drawing.Size(1979, 984);
             this.Controls.Add(this.panelLog);
             this.Controls.Add(this.panelTool);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "两弹城景区客户端";
             this.Load += new System.EventHandler(this.MainForm_Load);
+            this.SizeChanged += new System.EventHandler(this.MainForm_SizeChanged);
             this.panelTool.ResumeLayout(false);
             this.panelLog.ResumeLayout(false);
             this.groupBoxLog.ResumeLayout(false);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.NotifyIcon notifyIcon;
     }
 }
 
