@@ -14,7 +14,6 @@ namespace BombsCityClient.FlowCamera
     class FlowCameraManager
     {
         private Timer uploadTimer = new Timer(10000);
-        private FlowCountHttpClient httpClient = new FlowCountHttpClient();
         private Dictionary<Tuple<String, UInt32>, FlowCameraController> Controllers = new Dictionary<Tuple<string, uint>, FlowCameraController>();
         private FlowCountHttpClient FlowCountHttpClient = new FlowCountHttpClient();
         private static FlowCameraManager __instance = new FlowCameraManager();
@@ -35,7 +34,7 @@ namespace BombsCityClient.FlowCamera
             List<FlowCamCfg> flowCamCfgs = GlobalConfig.GetInstance().FlowCamCfgList;
             foreach(FlowCamCfg cfg in flowCamCfgs)
             {
-                FlowCameraController controller = new FlowCameraController(cfg.IpAddress, cfg.Port, cfg.UserName, cfg.Password, cfg.Description);
+                FlowCameraController controller = new FlowCameraController(cfg.IpAddress, cfg.Port, cfg.UserName, cfg.Password);
                 Controllers.Add(new Tuple<String, UInt32>(cfg.IpAddress, cfg.Port), controller);
                 controller.Login();
             }

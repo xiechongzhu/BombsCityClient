@@ -129,7 +129,7 @@ namespace BombsCityClient
             GlobalConfig.GetInstance().parkingCameraCfg.Password = textBoxParkingCamPassword.Text;
             try
             {
-                GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal = UInt32.Parse(textBoxParkingTotal.Text);
+                GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal = Int32.Parse(textBoxParkingTotal.Text);
             }
             catch (Exception)
             {

@@ -17,7 +17,6 @@ namespace BombsCityClient.FlowCamera
         private UInt32 port;
         private String userName;
         private String password;
-        private String description;
         private IntPtr m_LoginID;
         private IntPtr m_PlayID;
         private IntPtr m_AttactID;
@@ -27,13 +26,12 @@ namespace BombsCityClient.FlowCamera
         private fVideoStatSumCallBack m_VideoStatSumCallBack;
         public FlowCount flowCount { get; set; }
 
-        public FlowCameraController(String ipAddress, UInt32 port, String userName, String password, String description)
+        public FlowCameraController(String ipAddress, UInt32 port, String userName, String password)
         {
             this.ipAddress = ipAddress;
             this.port = port;
             this.userName = userName;
             this.password = password;
-            this.description = description;
             this.m_LoginID = IntPtr.Zero;
             this.m_PlayID = IntPtr.Zero;
             this.m_AttactID = IntPtr.Zero;  
@@ -66,6 +64,8 @@ namespace BombsCityClient.FlowCamera
             {
                 Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_ERROR, String.Format("启动人流量统计摄像头监视失败,IP={0},PORT={1},错误原因:{2}",
                 ipAddress, port, NETClient.GetLastError()));
+                NETClient.Logout(m_LoginID);
+                m_LoginID = IntPtr.Zero;
                 autoLoginTimer.Start();
                 return;
             }
@@ -81,6 +81,10 @@ namespace BombsCityClient.FlowCamera
             {
                 Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_ERROR, String.Format("订阅人流量统计摄像头统计数据失败,IP={0},PORT={1},错误原因:{2}",
                     ipAddress, port, NETClient.GetLastError()));
+                NETClient.StopRealPlay(m_PlayID);
+                m_PlayID = IntPtr.Zero;
+                NETClient.Logout(m_LoginID);
+                m_LoginID = IntPtr.Zero;
                 autoLoginTimer.Start();
                 return;
             }
@@ -130,6 +134,7 @@ namespace BombsCityClient.FlowCamera
         {
             m_LoginID = IntPtr.Zero;
             m_PlayID = IntPtr.Zero;
+            m_AttactID = IntPtr.Zero;
             Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("开始自动连接人流量统计摄像头,IP={0},PORT={1}", ipAddress, port));
             autoLoginTimer.Start();
             clearTimer.Stop();

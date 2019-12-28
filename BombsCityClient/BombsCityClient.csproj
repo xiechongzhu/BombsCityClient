@@ -106,6 +106,7 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ParkingCamera\ParkingCameraController.cs" />
     <Compile Include="ParkingCamera\ParkingCameraManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

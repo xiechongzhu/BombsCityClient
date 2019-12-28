@@ -24,7 +24,7 @@ namespace BombsCityClient
         public UInt32 Port { get; set; }
         public String UserName { get; set; }
         public String Password { get; set; }
-        public UInt32 ParkingTotal { get; set; }
+        public Int32 ParkingTotal { get; set; }
     }
 
     public class GlobalConfig
