@@ -97,12 +97,12 @@ namespace BombsCityClient
         {
             if(!NETClient.Init(new fDisConnectCallBack(DisconnectCallBack), IntPtr.Zero, null))
             {
-                MessageBox.Show("初始化人流量统计摄像头失败!", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_ERROR, "初始化人流量统计摄像头失败!");
+                MessageBox.Show("初始化摄像头失败!", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_ERROR, "初始化摄像头失败!");
             }
             else
             {
-                Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, "初始化人流量统计摄像头成功!");
+                Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, "初始化摄像头成功!");
             }
         }
 

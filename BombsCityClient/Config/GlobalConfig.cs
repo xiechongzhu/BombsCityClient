@@ -25,6 +25,8 @@ namespace BombsCityClient
         public String UserName { get; set; }
         public String Password { get; set; }
         public Int32 ParkingTotal { get; set; }
+        public int LaneIn { get; set; }
+        public int LaneOut { get; set; }
     }
 
     public class GlobalConfig

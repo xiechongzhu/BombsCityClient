@@ -3426,3 +3426,662 @@ Begin Time:2019-12-28 16:10:10.318
 [2019-12-28 16:10:20.409][P:17632/T:18648][Utils.cpp:4792][Info][0] mutil NIC client
 [2019-12-28 16:10:20.430][P:17632/T:18648][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 14400
 [2019-12-28 16:10:20.533][P:17632/T:18648][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=172316416.]
+Begin Time:2019-12-28 18:28:04.103
+[2019-12-28 18:28:04.103][P:23264/T:12352][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-28 18:28:04.107][P:23264/T:12352][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-28 18:28:04.127][P:23264/T:12352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D960000
+
+[2019-12-28 18:28:04.181][P:23264/T:12352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-28 18:28:10.670][P:23264/T:6880][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14400, SpeCap=0, lpDeviceInfo=0DE6EE68.]
+[2019-12-28 18:28:10.938][P:23264/T:6880][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=173345640.]
+[2019-12-28 18:28:10.939][P:23264/T:6880][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=173345640. nChannelID=0. rType=0]
+[2019-12-28 18:28:11.248][P:23264/T:6880][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 14400
+[2019-12-28 18:28:11.303][P:23264/T:6880][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=173429192]
+[2019-12-28 18:28:11.304][P:23264/T:6880][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=173345640, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05AF5F16, dwUser=0A550B68, Reserved=00000000.]
+[2019-12-28 18:28:11.305][P:23264/T:6880][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-28 18:28:11.325][P:23264/T:6880][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 14400
+[2019-12-28 18:28:11.417][P:23264/T:6880][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=173756984.]
+[2019-12-28 18:28:12.467][P:23264/T:12352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=173429192.]
+[2019-12-28 18:28:12.467][P:23264/T:12352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2019-12-28 18:28:12.467][P:23264/T:12352][dhnetsdk.cpp:8660][Info][0] Enter CLIENT_StopLoadPic. [lAnalyzerHandle=173756984.]
+[2019-12-28 18:28:12.468][P:23264/T:12352][dhnetsdk.cpp:8667][Info][0] Leave CLIENT_StopLoadPic. [ret=1.]
+[2019-12-28 18:28:12.468][P:23264/T:12352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=173345640.]
+[2019-12-28 18:28:12.468][P:23264/T:12352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2019-12-28 18:28:12.468][P:23264/T:12352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-12-28 18:28:13.551][P:23264/T:6880][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14400, SpeCap=0, lpDeviceInfo=0DE6EE68.]
+[2019-12-28 18:28:14.150][P:23264/T:6880][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=173023016.]
+[2019-12-28 18:28:14.154][P:23264/T:6880][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=173023016. nChannelID=0. rType=0]
+[2019-12-28 18:28:14.250][P:23264/T:6880][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 14400
+[2019-12-28 18:28:14.301][P:23264/T:6880][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=173425392]
+[2019-12-28 18:28:14.301][P:23264/T:6880][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=173023016, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05AF5E4E, dwUser=0A501F28, Reserved=00000000.]
+[2019-12-28 18:28:14.304][P:23264/T:6880][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-28 18:28:14.331][P:23264/T:6880][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 14400
+[2019-12-28 18:28:14.435][P:23264/T:6880][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=173355744.]
+Begin Time:2019-12-29 13:13:11.144
+[2019-12-29 13:13:11.144][P:2628/T:16204][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-29 13:13:11.150][P:2628/T:16204][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-29 13:13:11.746][P:2628/T:16204][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D720000
+
+[2019-12-29 13:13:11.801][P:2628/T:16204][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-29 13:13:20.586][P:2628/T:16396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DC0F158.]
+[2019-12-29 13:13:22.090][P:2628/T:16396][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-29 13:13:22.091][P:2628/T:16396][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-29 13:13:22.091][P:2628/T:16396][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-29 13:13:22.091][P:2628/T:16396][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-29 13:13:22.091][P:2628/T:16396][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-29 13:13:22.091][P:2628/T:16396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-29 13:13:22.092][P:2628/T:16396][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-29 13:13:22.092][P:2628/T:16396][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+[2019-12-29 13:13:32.102][P:2628/T:2616][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DDCEC28.]
+[2019-12-29 13:13:33.603][P:2628/T:2616][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-29 13:13:33.603][P:2628/T:2616][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-29 13:13:33.603][P:2628/T:2616][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-29 13:13:33.603][P:2628/T:2616][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-29 13:13:33.603][P:2628/T:2616][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-29 13:13:33.603][P:2628/T:2616][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-29 13:13:33.603][P:2628/T:2616][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-29 13:13:33.603][P:2628/T:2616][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+[2019-12-29 13:13:42.103][P:2628/T:2616][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DDCEC28.]
+[2019-12-29 13:13:43.604][P:2628/T:2616][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-29 13:13:43.604][P:2628/T:2616][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-29 13:13:43.604][P:2628/T:2616][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-29 13:13:43.604][P:2628/T:2616][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-29 13:13:43.604][P:2628/T:2616][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-29 13:13:43.604][P:2628/T:2616][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-29 13:13:43.604][P:2628/T:2616][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-29 13:13:43.604][P:2628/T:2616][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+[2019-12-29 13:13:52.118][P:2628/T:2616][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DDCEC28.]
+[2019-12-29 13:13:53.619][P:2628/T:2616][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-29 13:13:53.619][P:2628/T:2616][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-29 13:13:53.619][P:2628/T:2616][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-29 13:13:53.619][P:2628/T:2616][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-29 13:13:53.619][P:2628/T:2616][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-29 13:13:53.619][P:2628/T:2616][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-29 13:13:53.619][P:2628/T:2616][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-29 13:13:53.619][P:2628/T:2616][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+[2019-12-29 13:14:02.119][P:2628/T:16396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DC0F158.]
+Begin Time:2019-12-30 11:23:48.478
+[2019-12-30 11:23:48.478][P:2260/T:11904][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-30 11:23:48.485][P:2260/T:11904][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-30 11:23:49.251][P:2260/T:11904][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DB70000
+
+[2019-12-30 11:23:49.306][P:2260/T:11904][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-30 11:23:53.999][P:2260/T:15452][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0E09EF98.]
+[2019-12-30 11:23:59.193][P:2260/T:15452][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 11:23:59.193][P:2260/T:15452][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 11:23:59.193][P:2260/T:15452][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 11:23:59.193][P:2260/T:15452][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 11:23:59.193][P:2260/T:15452][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 11:23:59.193][P:2260/T:15452][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 11:23:59.195][P:2260/T:15452][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 11:23:59.195][P:2260/T:15452][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+Begin Time:2019-12-30 13:56:39.160
+[2019-12-30 13:56:39.160][P:560/T:16396][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-30 13:56:39.168][P:560/T:16396][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-30 13:56:39.835][P:560/T:16396][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D260000
+
+[2019-12-30 13:56:39.889][P:560/T:16396][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-30 13:56:43.843][P:560/T:16160][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0755EEC8.]
+[2019-12-30 13:56:45.345][P:560/T:16160][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-30 13:56:45.345][P:560/T:16160][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-30 13:56:45.345][P:560/T:16160][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 13:56:45.345][P:560/T:16160][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-30 13:56:45.345][P:560/T:16160][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 13:56:45.345][P:560/T:16160][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-30 13:56:45.346][P:560/T:16160][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 13:56:45.346][P:560/T:16160][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+Begin Time:2019-12-30 13:57:46.744
+[2019-12-30 13:57:46.744][P:6856/T:16608][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-30 13:57:46.750][P:6856/T:16608][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-30 13:57:46.771][P:6856/T:16608][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DA50000
+
+[2019-12-30 13:57:46.826][P:6856/T:16608][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-30 13:57:48.258][P:6856/T:18048][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DDDF168.]
+[2019-12-30 13:57:49.760][P:6856/T:18048][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2019-12-30 13:57:49.760][P:6856/T:18048][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2019-12-30 13:57:49.760][P:6856/T:18048][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 13:57:49.760][P:6856/T:18048][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2019-12-30 13:57:49.760][P:6856/T:18048][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 13:57:49.760][P:6856/T:18048][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2019-12-30 13:57:49.760][P:6856/T:18048][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 13:57:49.760][P:6856/T:18048][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+Begin Time:2019-12-30 14:05:03.323
+[2019-12-30 14:05:03.323][P:17264/T:6608][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-30 14:05:03.328][P:17264/T:6608][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-30 14:05:03.348][P:17264/T:6608][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D880000
+
+[2019-12-30 14:05:03.402][P:17264/T:6608][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-30 14:05:11.194][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:05:16.276][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:05:16.276][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:05:16.276][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:05:16.276][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:05:16.276][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:05:16.276][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:05:16.277][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:05:16.277][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:05:26.293][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:05:31.361][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:05:31.361][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:05:31.361][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:05:36.293][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:05:41.376][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:05:41.376][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:05:41.376][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:05:46.308][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:05:51.383][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:05:51.383][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:05:51.383][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:05:56.307][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:01.393][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:01.393][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:01.393][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:06.308][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:11.398][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:11.398][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:11.398][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:16.308][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:21.393][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:21.393][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:21.393][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:26.310][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:31.378][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:31.378][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:31.378][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:36.309][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:41.379][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:41.379][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:41.379][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:46.309][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:06:51.390][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:06:51.390][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:06:51.390][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:06:56.326][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:01.403][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:01.403][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:01.403][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:06.327][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:11.408][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:11.408][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:11.408][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:16.325][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:21.410][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:21.410][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:21.410][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:26.340][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:31.419][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:31.419][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:31.419][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:36.355][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:41.438][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:41.438][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:41.438][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:46.356][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:07:51.433][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:07:51.433][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:07:51.433][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:07:56.357][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:01.437][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:01.437][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:01.437][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:06.357][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:11.438][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:11.438][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:11.438][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:16.371][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:21.454][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:21.454][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:21.454][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:26.372][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:31.453][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:31.453][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:31.453][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:36.386][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:41.466][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:41.466][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:41.466][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:46.387][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:08:51.468][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:08:51.468][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:08:51.468][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:08:56.390][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:01.459][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:01.459][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:01.459][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:09:06.389][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:11.477][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:11.477][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:11.477][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:09:16.402][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:21.480][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:21.480][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:21.480][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:09:26.402][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:31.471][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:31.471][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:31.471][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:09:36.403][P:17264/T:17856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DEDF068.]
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:41.490][P:17264/T:17856][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:41.490][P:17264/T:17856][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:41.490][P:17264/T:17856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+[2019-12-30 14:09:46.403][P:17264/T:11176][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=14300, SpeCap=0, lpDeviceInfo=0DD5EB08.]
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhdevprob.cpp:1991][Error][90010002] Wait for result err:258
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhdevprob.cpp:2307][Error][90010012] Failed to send login data
+[2019-12-30 14:09:51.484][P:17264/T:11176][Manager.cpp:7549][Error][90010002] device is NULL
+[2019-12-30 14:09:51.484][P:17264/T:11176][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:3!
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:14300, specCap:0!
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=3, login ID=0.]
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-30 14:09:51.484][P:17264/T:11176][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000066.]
+Begin Time:2019-12-31 13:42:46.924
+[2019-12-31 13:42:46.924][P:16548/T:7228][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 13:42:46.929][P:16548/T:7228][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 13:42:47.632][P:16548/T:7228][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DB00000
+
+[2019-12-31 13:42:47.687][P:16548/T:7228][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 13:42:56.103][P:16548/T:18948][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0756EBD8.]
+[2019-12-31 13:42:56.501][P:16548/T:18948][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=175573864.]
+[2019-12-31 13:42:56.503][P:16548/T:18948][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=175573864. nChannelID=0. rType=0]
+[2019-12-31 13:42:57.036][P:16548/T:18948][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 13:42:57.083][P:16548/T:18948][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=175655768]
+[2019-12-31 13:42:57.084][P:16548/T:18948][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=175573864, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05E25DAE, dwUser=0A770B68, Reserved=00000000.]
+[2019-12-31 13:42:57.087][P:16548/T:18948][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 13:42:57.122][P:16548/T:18948][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 13:42:57.283][P:16548/T:18948][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=176023192.]
+[2019-12-31 13:44:42.215][P:16548/T:17792][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[863][0]
+[2019-12-31 13:44:47.081][P:16548/T:17784][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[864][0]
+[2019-12-31 13:45:08.508][P:16548/T:17876][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[865][0]
+[2019-12-31 13:45:38.228][P:16548/T:17884][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[866][0]
+[2019-12-31 13:45:46.405][P:16548/T:17792][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[867][0]
+[2019-12-31 13:46:28.173][P:16548/T:17796][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[868][0]
+[2019-12-31 13:46:50.990][P:16548/T:17864][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[869][0]
+[2019-12-31 13:47:51.791][P:16548/T:17892][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 13:49:29.937][P:16548/T:17784][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2184
+[2019-12-31 13:49:29.937][P:16548/T:17784][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 13:49:36.209][P:16548/T:17800][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:0, connId:2252
+[2019-12-31 13:49:36.209][P:16548/T:17800][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 14:04:23.162][P:16548/T:17864][TPTCPClient.cpp:145][Error][90010007] Device is not online
+[2019-12-31 14:04:31.541][P:16548/T:7228][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=0.]
+[2019-12-31 14:04:31.541][P:16548/T:7228][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=0]
+[2019-12-31 14:04:31.541][P:16548/T:7228][dhnetsdk.cpp:8660][Info][0] Enter CLIENT_StopLoadPic. [lAnalyzerHandle=0.]
+[2019-12-31 14:04:31.541][P:16548/T:7228][dhnetsdk.cpp:8667][Info][0] Leave CLIENT_StopLoadPic. [ret=0.]
+[2019-12-31 14:04:31.541][P:16548/T:7228][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=0.]
+[2019-12-31 14:04:31.542][P:16548/T:7228][dhnetsdk.cpp:830][Error][90010004] Failed to logout, id:0
+[2019-12-31 14:04:31.542][P:16548/T:7228][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=0]
+[2019-12-31 14:04:31.547][P:16548/T:7228][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2019-12-31 14:04:31.547][P:16548/T:7228][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000004.]
+[2019-12-31 14:04:34.784][P:16548/T:18948][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0756EBD8.]
+[2019-12-31 14:04:35.269][P:16548/T:18948][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=176140816.]
+[2019-12-31 14:04:35.270][P:16548/T:18948][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=176140816. nChannelID=0. rType=0]
+[2019-12-31 14:04:35.665][P:16548/T:18948][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:04:35.733][P:16548/T:18948][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=175698880]
+[2019-12-31 14:04:35.735][P:16548/T:18948][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=176140816, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05E2643E, dwUser=0A7FB210, Reserved=00000000.]
+[2019-12-31 14:04:35.736][P:16548/T:18948][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:04:35.819][P:16548/T:18948][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:04:36.051][P:16548/T:18948][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=175680432.]
+[2019-12-31 14:05:05.860][P:16548/T:17808][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[884][0]
+[2019-12-31 14:05:41.652][P:16548/T:17872][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[885][0]
+[2019-12-31 14:09:11.289][P:16548/T:17868][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[887][0]
+[2019-12-31 14:10:11.563][P:16548/T:17892][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 14:11:29.823][P:16548/T:17856][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:3596
+[2019-12-31 14:11:29.823][P:16548/T:17856][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 14:11:33.831][P:16548/T:17856][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:0, connId:3620
+[2019-12-31 14:11:33.831][P:16548/T:17856][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 14:13:57.354][P:16548/T:17868][TPTCPClient.cpp:145][Error][90010007] Device is not online
+Begin Time:2019-12-31 14:14:08.567
+[2019-12-31 14:14:08.567][P:5756/T:19972][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 14:14:08.572][P:5756/T:19972][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:14:09.243][P:5756/T:19972][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DE50000
+
+[2019-12-31 14:14:09.298][P:5756/T:19972][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 14:14:10.799][P:5756/T:8988][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0816F0A8.]
+[2019-12-31 14:14:11.173][P:5756/T:8988][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=178981736.]
+[2019-12-31 14:14:11.174][P:5756/T:8988][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=178981736. nChannelID=0. rType=0]
+[2019-12-31 14:14:11.627][P:5756/T:8988][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:14:11.673][P:5756/T:8988][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=179089328]
+[2019-12-31 14:14:11.675][P:5756/T:8988][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=178981736, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=061738D6, dwUser=0AAB0B68, Reserved=00000000.]
+[2019-12-31 14:14:11.680][P:5756/T:8988][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:14:11.733][P:5756/T:8988][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:14:11.865][P:5756/T:8988][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=179432096.]
+[2019-12-31 14:14:34.362][P:5756/T:4464][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[890][0]
+[2019-12-31 14:15:09.072][P:5756/T:14604][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[891][0]
+[2019-12-31 14:16:09.237][P:5756/T:12868][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 14:17:29.736][P:5756/T:18632][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2220
+[2019-12-31 14:17:29.736][P:5756/T:18632][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 14:17:41.556][P:5756/T:4464][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:0, connId:2256
+[2019-12-31 14:17:41.556][P:5756/T:4464][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+Begin Time:2019-12-31 14:21:00.943
+[2019-12-31 14:21:00.943][P:7556/T:9504][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 14:21:00.947][P:7556/T:9504][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:21:00.967][P:7556/T:9504][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DC30000
+
+[2019-12-31 14:21:01.022][P:7556/T:9504][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 14:21:02.952][P:7556/T:11380][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DFCEB08.]
+[2019-12-31 14:21:03.332][P:7556/T:11380][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=176289720.]
+[2019-12-31 14:21:03.334][P:7556/T:11380][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=176289720. nChannelID=0. rType=0]
+[2019-12-31 14:21:03.709][P:7556/T:11380][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:21:03.781][P:7556/T:11380][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=176404744]
+[2019-12-31 14:21:03.784][P:7556/T:11380][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=176289720, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05DF3BA6, dwUser=0A81F7B8, Reserved=00000000.]
+[2019-12-31 14:21:03.788][P:7556/T:11380][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:21:03.807][P:7556/T:11380][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:21:03.972][P:7556/T:11380][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=176372864.]
+[2019-12-31 14:21:58.140][P:7556/T:7992][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[901][0]
+[2019-12-31 14:22:58.587][P:7556/T:19660][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 14:23:54.103][P:7556/T:7992][TPTCPClient.cpp:145][Error][90010007] Device is not online
+Begin Time:2019-12-31 14:32:57.483
+[2019-12-31 14:32:57.483][P:13620/T:8616][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 14:32:57.488][P:13620/T:8616][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:32:57.506][P:13620/T:8616][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D390000
+
+[2019-12-31 14:32:57.561][P:13620/T:8616][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 14:32:59.014][P:13620/T:14824][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D72EA58.]
+[2019-12-31 14:32:59.495][P:13620/T:14824][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=167521008.]
+[2019-12-31 14:32:59.497][P:13620/T:14824][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=167521008. nChannelID=0. rType=0]
+[2019-12-31 14:32:59.962][P:13620/T:14824][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:33:00.034][P:13620/T:14824][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=167615800]
+[2019-12-31 14:33:00.034][P:13620/T:14824][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=167521008, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=054F38FE, dwUser=09FC2AF0, Reserved=00000000.]
+[2019-12-31 14:33:00.036][P:13620/T:14824][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:33:00.113][P:13620/T:14824][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:33:00.334][P:13620/T:14824][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=167599384.]
+[2019-12-31 14:35:15.687][P:13620/T:16912][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[927][0]
+[2019-12-31 14:36:16.213][P:13620/T:248][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 14:37:29.744][P:13620/T:924][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2244
+[2019-12-31 14:37:29.744][P:13620/T:924][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2019-12-31 14:37:32.926][P:13620/T:924][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2032
+[2019-12-31 14:37:32.926][P:13620/T:924][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+Begin Time:2019-12-31 14:44:36.127
+[2019-12-31 14:44:36.127][P:6788/T:16548][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 14:44:36.132][P:6788/T:16548][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:44:36.150][P:6788/T:16548][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DCF0000
+
+[2019-12-31 14:44:36.206][P:6788/T:16548][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 14:44:37.715][P:6788/T:1456][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E08ECE8.]
+[2019-12-31 14:44:38.084][P:6788/T:1456][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=176878744.]
+[2019-12-31 14:44:38.085][P:6788/T:1456][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=176878744. nChannelID=0. rType=0]
+[2019-12-31 14:44:38.480][P:6788/T:1456][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:44:38.530][P:6788/T:1456][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=177018440]
+[2019-12-31 14:44:38.531][P:6788/T:1456][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=176878744, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05FA3AB6, dwUser=0A8AF498, Reserved=00000000.]
+[2019-12-31 14:44:38.532][P:6788/T:1456][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:44:38.562][P:6788/T:1456][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:44:38.700][P:6788/T:1456][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=177012360.]
+[2019-12-31 14:46:16.263][P:6788/T:17696][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[932][0]
+[2019-12-31 14:49:14.658][P:6788/T:19712][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[933][0]
+[2019-12-31 14:50:52.996][P:6788/T:18528][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[934][0]
+[2019-12-31 14:52:55.177][P:6788/T:14252][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 14:53:23.318][P:6788/T:19712][TcpSocket.cpp:1396][Error][90004001] exlen size add head_size is over buff len, extlen:23683886,Len:51200
+[2019-12-31 14:53:23.319][P:6788/T:19712][TcpSocket.cpp:1399][Info][90004001] 48 BC 8E 4F 2E 63 69 01 EF E6 DD C4 31 FA D3 A5 D2 96 15 DC FA D6 8F 8F F6 67 67 FE 4B 5C D5 15 
+[2019-12-31 14:53:23.319][P:6788/T:19712][Utils.cpp:5175][Info][0] pszIp:221.182.126.73, szIpLen:16
+[2019-12-31 14:53:23.319][P:6788/T:19712][TcpSocket.cpp:1409][Error][90004004] Ext len too long, size:23683886, ip:221.182.126.73, port:37267
+[2019-12-31 14:53:23.319][P:6788/T:19712][TPTCPClient.cpp:145][Error][90010007] Device is not online
+Begin Time:2019-12-31 14:55:53.741
+[2019-12-31 14:55:53.741][P:19944/T:7556][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 14:55:53.748][P:19944/T:7556][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:55:53.767][P:19944/T:7556][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D9A0000
+
+[2019-12-31 14:55:53.821][P:19944/T:7556][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 14:55:55.572][P:19944/T:17552][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DD3EA98.]
+[2019-12-31 14:55:55.895][P:19944/T:17552][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=173616864.]
+[2019-12-31 14:55:55.896][P:19944/T:17552][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=173616864. nChannelID=0. rType=0]
+[2019-12-31 14:55:56.355][P:19944/T:17552][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:55:56.433][P:19944/T:17552][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=173726016]
+[2019-12-31 14:55:56.434][P:19944/T:17552][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=173616864, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05B339C6, dwUser=0A592EE0, Reserved=00000000.]
+[2019-12-31 14:55:56.435][P:19944/T:17552][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 14:55:56.464][P:19944/T:17552][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 14:55:56.689][P:19944/T:17552][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=174062624.]
+[2019-12-31 15:00:38.618][P:19944/T:16748][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[939][0]
+Begin Time:2019-12-31 15:03:12.733
+[2019-12-31 15:03:12.733][P:21680/T:11944][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 15:03:12.740][P:21680/T:11944][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 15:03:12.764][P:21680/T:11944][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D730000
+
+[2019-12-31 15:03:12.818][P:21680/T:11944][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 15:03:14.030][P:21680/T:16412][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DABEBE8.]
+[2019-12-31 15:03:14.382][P:21680/T:16412][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=171574992.]
+[2019-12-31 15:03:14.383][P:21680/T:16412][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=171574992. nChannelID=0. rType=0]
+[2019-12-31 15:03:14.818][P:21680/T:16412][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 15:03:14.862][P:21680/T:16412][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=171683120]
+[2019-12-31 15:03:14.863][P:21680/T:16412][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=171574992, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=059A39C6, dwUser=0A3A06D0, Reserved=00000000.]
+[2019-12-31 15:03:14.865][P:21680/T:16412][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 15:03:14.911][P:21680/T:16412][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 15:03:15.020][P:21680/T:16412][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=172030040.]
+[2019-12-31 15:04:23.394][P:21680/T:23276][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[940][0]
+Begin Time:2019-12-31 15:05:54.518
+[2019-12-31 15:05:54.518][P:23064/T:18428][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2019-12-31 15:05:54.523][P:23064/T:18428][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 15:05:54.544][P:23064/T:18428][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DDE0000
+
+[2019-12-31 15:05:54.598][P:23064/T:18428][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2019-12-31 15:05:55.992][P:23064/T:11392][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E18EDB8.]
+[2019-12-31 15:05:56.347][P:23064/T:11392][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=177931320.]
+[2019-12-31 15:05:56.349][P:23064/T:11392][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=177931320. nChannelID=0. rType=0]
+[2019-12-31 15:05:56.759][P:23064/T:11392][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 15:05:56.821][P:23064/T:11392][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=178039848]
+[2019-12-31 15:05:56.822][P:23064/T:11392][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=177931320, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=060D394E, dwUser=0A9B0438, Reserved=00000000.]
+[2019-12-31 15:05:56.823][P:23064/T:11392][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-12-31 15:05:56.906][P:23064/T:11392][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2019-12-31 15:05:57.069][P:23064/T:11392][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=178380552.]
+[2019-12-31 15:09:55.294][P:23064/T:12268][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2019-12-31 15:10:28.918][P:23064/T:7608][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[942][0]
+[2019-12-31 15:10:42.990][P:23064/T:10160][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[943][0]
+[2019-12-31 15:10:49.093][P:23064/T:10480][TcpSocket.cpp:1396][Error][90004001] exlen size add head_size is over buff len, extlen:-489929196,Len:51200
+[2019-12-31 15:10:49.093][P:23064/T:10480][TcpSocket.cpp:1399][Info][90004001] 21 2B 6F DB 14 46 CC E2 BA 6D 53 06 E4 F1 A4 21 DD F9 24 17 91 6B 11 07 34 44 9F D2 5F 42 6B DA 
+[2019-12-31 15:10:49.093][P:23064/T:10480][Utils.cpp:5175][Info][0] pszIp:221.182.126.73, szIpLen:16
+[2019-12-31 15:10:49.093][P:23064/T:10480][TcpSocket.cpp:1409][Error][90004004] Ext len too long, size:-489929196, ip:221.182.126.73, port:37267
+[2019-12-31 15:10:49.093][P:23064/T:10480][TPTCPClient.cpp:145][Error][90010007] Device is not online
+[2019-12-31 15:10:56.303][P:23064/T:22652][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[945][0]
+[2019-12-31 15:11:00.707][P:23064/T:548][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[944][0]
+[2019-12-31 15:12:05.117][P:23064/T:12164][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[946][0]
+[2019-12-31 15:14:55.456][P:23064/T:10248][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[947][0]
+[2019-12-31 15:15:02.768][P:23064/T:10248][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[948][0]
+[2019-12-31 15:15:10.274][P:23064/T:9480][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[949][0]
+[2019-12-31 15:17:09.324][P:23064/T:10160][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[951][0]
+[2019-12-31 15:17:10.353][P:23064/T:19692][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[950][0]
+[2019-12-31 15:17:52.072][P:23064/T:19692][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[953][0]
+[2019-12-31 15:17:52.622][P:23064/T:10248][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[952][0]
+[2019-12-31 15:26:35.046][P:23064/T:548][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[954][0]
+[2019-12-31 15:27:31.491][P:23064/T:10248][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[955][0]
+[2019-12-31 15:27:32.194][P:23064/T:10248][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[956][0]
+[2019-12-31 15:36:05.490][P:23064/T:13156][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[957][0]
+[2019-12-31 15:36:39.467][P:23064/T:20380][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[958][0]
+Begin Time:2020-01-02 10:02:04.670
+[2020-01-02 10:02:04.670][P:21856/T:23548][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:02:04.676][P:21856/T:23548][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:02:05.277][P:21856/T:23548][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DAE0000
+
+[2020-01-02 10:02:05.331][P:21856/T:23548][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-01-02 10:06:53.759
+[2020-01-02 10:06:53.759][P:13848/T:9404][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:06:53.766][P:13848/T:9404][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:06:53.793][P:13848/T:9404][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DE20000
+
+[2020-01-02 10:06:53.847][P:13848/T:9404][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-01-02 10:13:45.431
+[2020-01-02 10:13:45.431][P:15012/T:2640][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:13:45.435][P:15012/T:2640][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:13:45.455][P:15012/T:2640][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DB70000
+
+[2020-01-02 10:13:45.510][P:15012/T:2640][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-01-02 10:14:01.107
+[2020-01-02 10:14:01.107][P:8780/T:21644][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:14:01.112][P:8780/T:21644][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:14:01.129][P:8780/T:21644][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D100000
+
+[2020-01-02 10:14:01.183][P:8780/T:21644][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-01-02 10:14:07.189][P:8780/T:17772][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D5FED98.]
+[2020-01-02 10:14:07.580][P:8780/T:17772][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=164317120.]
+[2020-01-02 10:14:07.581][P:8780/T:17772][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=164317120. nChannelID=0. rType=0]
+[2020-01-02 10:14:08.039][P:8780/T:17772][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-01-02 10:14:08.115][P:8780/T:17772][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=164410256]
+[2020-01-02 10:14:08.119][P:8780/T:17772][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=164317120, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=053360F6, dwUser=09CB47C0, Reserved=00000000.]
+[2020-01-02 10:14:08.122][P:8780/T:17772][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:14:08.153][P:8780/T:17772][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-01-02 10:14:08.362][P:8780/T:17772][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=164757328.]
+[2020-01-02 10:16:08.859][P:8780/T:2216][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[1560][0]
+[2020-01-02 10:16:33.798][P:8780/T:16644][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2020-01-02 10:17:25.894][P:8780/T:2216][TcpSocket.cpp:1396][Error][90004001] exlen size add head_size is over buff len, extlen:1449271429,Len:51200
+[2020-01-02 10:17:25.895][P:8780/T:2216][TcpSocket.cpp:1399][Info][90004001] B1 5C 5B 4C 85 20 62 56 CF F4 4E FA EF 22 B8 4B 99 4E 6F 33 19 68 8E 9B F1 A3 A8 D2 69 B8 3A 1F 
+[2020-01-02 10:17:25.895][P:8780/T:2216][Utils.cpp:5175][Info][0] pszIp:221.182.126.73, szIpLen:16
+[2020-01-02 10:17:25.895][P:8780/T:2216][TcpSocket.cpp:1409][Error][90004004] Ext len too long, size:1449271429, ip:221.182.126.73, port:37267
+[2020-01-02 10:17:25.895][P:8780/T:2216][TPTCPClient.cpp:145][Error][90010007] Device is not online
+Begin Time:2020-01-02 10:19:06.249
+[2020-01-02 10:19:06.249][P:3308/T:22904][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:19:06.255][P:3308/T:22904][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:19:06.276][P:3308/T:22904][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D610000
+
+[2020-01-02 10:19:06.330][P:3308/T:22904][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-01-02 10:19:08.066][P:3308/T:23048][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D9CEF38.]
+[2020-01-02 10:19:08.513][P:3308/T:23048][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=169806696.]
+[2020-01-02 10:19:08.514][P:3308/T:23048][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=169806696. nChannelID=0. rType=0]
+[2020-01-02 10:19:08.984][P:3308/T:23048][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-01-02 10:19:09.067][P:3308/T:23048][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=169900784]
+[2020-01-02 10:19:09.069][P:3308/T:23048][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=169806696, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05883B2E, dwUser=0A1F0B68, Reserved=00000000.]
+[2020-01-02 10:19:09.074][P:3308/T:23048][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:19:09.095][P:3308/T:23048][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-01-02 10:19:09.267][P:3308/T:23048][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=170257584.]
+[2020-01-02 10:19:58.834][P:3308/T:12956][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[1561][0]
+[2020-01-02 10:23:14.071][P:3308/T:18456][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[1562][0]
+[2020-01-02 10:25:53.245][P:3308/T:17424][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[1563][0]
+[2020-01-02 10:27:22.400][P:3308/T:1496][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2020-01-02 10:28:19.124][P:3308/T:5796][TPTCPClient.cpp:145][Error][90010007] Device is not online
+Begin Time:2020-01-02 10:29:35.708
+[2020-01-02 10:29:35.708][P:8528/T:20632][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:29:35.713][P:8528/T:20632][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:29:35.732][P:8528/T:20632][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D600000
+
+[2020-01-02 10:29:35.786][P:8528/T:20632][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-01-02 10:34:10.429
+[2020-01-02 10:34:10.430][P:20132/T:11868][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-01-02 10:34:10.434][P:20132/T:11868][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-01-02 10:34:10.454][P:20132/T:11868][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D4F0000
+
+[2020-01-02 10:34:10.508][P:20132/T:11868][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.

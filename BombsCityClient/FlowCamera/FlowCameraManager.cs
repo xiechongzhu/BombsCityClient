@@ -13,7 +13,7 @@ namespace BombsCityClient.FlowCamera
 {
     class FlowCameraManager
     {
-        private Timer uploadTimer = new Timer(10000);
+        private Timer uploadTimer = new Timer(30000);
         private Dictionary<Tuple<String, UInt32>, FlowCameraController> Controllers = new Dictionary<Tuple<string, uint>, FlowCameraController>();
         private FlowCountHttpClient FlowCountHttpClient = new FlowCountHttpClient();
         private static FlowCameraManager __instance = new FlowCameraManager();

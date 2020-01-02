@@ -44,7 +44,7 @@ namespace BombsCityClient.ParkingCamera
             this.m_LoginID = IntPtr.Zero;
             this.m_PlayID = IntPtr.Zero;
             this.m_EventID = IntPtr.Zero;
-            autoLoginTimer.Interval = 10000;
+            autoLoginTimer.Interval = 30000;
             autoLoginTimer.Elapsed += new ElapsedEventHandler(AutoLoginTimeout);
             m_AnalyzerDataCallBack = new fAnalyzerDataCallBack(AnalyzerDataCallBack);
             m_inCount = m_outCount = 0;
@@ -148,18 +148,15 @@ namespace BombsCityClient.ParkingCamera
             {
                 case EM_EVENT_IVS_TYPE.TRAFFICJUNCTION:
                     NET_DEV_EVENT_TRAFFICJUNCTION_INFO info = (NET_DEV_EVENT_TRAFFICJUNCTION_INFO)Marshal.PtrToStructure(pEventInfo, typeof(NET_DEV_EVENT_TRAFFICJUNCTION_INFO));
-                    switch(Enum.ToObject(typeof(EM_VEHICLE_DIRECTION), info.byVehicleDirection))
+                    if (GlobalConfig.GetInstance().parkingCameraCfg.LaneIn == info.nLane)
                     {
-                        case EM_VEHICLE_DIRECTION.HEAD:
-                            Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆进入停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
-                            m_inCount++;
-                            break;
-                        case EM_VEHICLE_DIRECTION.TAIL:
-                            Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆离开停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
-                            m_outCount++;
-                            break;
-                        default:
-                            break;
+                        Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆进入停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
+                        m_inCount++;
+                    }
+                    else if(GlobalConfig.GetInstance().parkingCameraCfg.LaneOut == info.nLane)
+                    {
+                        Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆离开停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
+                        m_outCount++;
                     }
                     break;
                 default:

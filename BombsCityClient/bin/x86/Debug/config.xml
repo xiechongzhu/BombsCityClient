@@ -7,9 +7,11 @@
   <ParkingUrl>http://182.140.197.109:8080/datacenter/cdata/parkinglot/push.dd</ParkingUrl>
   <parkingCameraCfg>
     <IpAddress>221.182.126.73</IpAddress>
-    <Port>14400</Port>
+    <Port>37777</Port>
     <UserName>admin</UserName>
     <Password>admin123</Password>
     <ParkingTotal>200</ParkingTotal>
+    <LaneIn>1</LaneIn>
+    <LaneOut>2</LaneOut>
   </parkingCameraCfg>
 </GlobalConfig>

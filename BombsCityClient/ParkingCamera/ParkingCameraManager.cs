@@ -12,7 +12,7 @@ namespace BombsCityClient.ParkingCamera
 {
     class ParkingCameraManager
     {
-        Timer uploadTimer = new Timer(10000);
+        Timer uploadTimer = new Timer(30000);
         private Dictionary<Tuple<String, UInt32>, ParkingCameraController> Controllers = new Dictionary<Tuple<string, uint>, ParkingCameraController>();
         private ParkingDataHttpClient FlowCountHttpClient = new ParkingDataHttpClient();
         private static ParkingCameraManager __instance = new ParkingCameraManager();

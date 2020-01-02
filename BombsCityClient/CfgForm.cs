@@ -26,6 +26,8 @@ namespace BombsCityClient
             textBoxParkingCamUserName.Text = GlobalConfig.GetInstance().parkingCameraCfg.UserName;
             textBoxParkingCamPassword.Text = GlobalConfig.GetInstance().parkingCameraCfg.Password;
             textBoxParkingTotal.Text = GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal.ToString();
+            textBoxLaneIn.Text = GlobalConfig.GetInstance().parkingCameraCfg.LaneIn.ToString();
+            textBoxLaneOut.Text = GlobalConfig.GetInstance().parkingCameraCfg.LaneOut.ToString();
         }
 
         private void btnAddFlowCam_Click(object sender, EventArgs e)
@@ -130,10 +132,12 @@ namespace BombsCityClient
             try
             {
                 GlobalConfig.GetInstance().parkingCameraCfg.ParkingTotal = Int32.Parse(textBoxParkingTotal.Text);
+                GlobalConfig.GetInstance().parkingCameraCfg.LaneIn = int.Parse(textBoxLaneIn.Text);
+                GlobalConfig.GetInstance().parkingCameraCfg.LaneOut = int.Parse(textBoxLaneOut.Text);
             }
             catch (Exception)
             {
-                MessageBox.Show("停车位个数只能为数字", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("停车位个数、车道号只能为数字", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             GlobalConfig.SaveConfig();
