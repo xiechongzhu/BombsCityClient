@@ -58,7 +58,7 @@ namespace BombsCityClient.ParkingCamera
             }
 
             dataUpload.time = DateTime.Now.ToString("yyyy-MM-dd HH");
-            dataUpload.used = carIn - carOut;
+            dataUpload.used = carIn - carOut + GlobalConfig.GetInstance().parkingCameraCfg.ParkingUsed;
             if(dataUpload.used < 0)
             {
                 dataUpload.used = 0;

@@ -11,6 +11,7 @@
     <UserName>admin</UserName>
     <Password>admin123</Password>
     <ParkingTotal>200</ParkingTotal>
+    <ParkingUsed>20</ParkingUsed>
     <LaneIn>1</LaneIn>
     <LaneOut>2</LaneOut>
   </parkingCameraCfg>

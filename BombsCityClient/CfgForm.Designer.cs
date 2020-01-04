@@ -50,6 +50,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPageParking = new System.Windows.Forms.TabPage();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBoxLaneOut = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxLaneIn = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.textBoxParkingTotal = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBoxParkingCamPassword = new System.Windows.Forms.TextBox();
@@ -60,10 +65,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxParingCamAddr = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBoxLaneIn = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBoxLaneOut = new System.Windows.Forms.TextBox();
+            this.textBoxParkingUsed = new System.Windows.Forms.TextBox();
             this.tabPageFlowCam.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPageGlobal.SuspendLayout();
@@ -258,6 +260,8 @@
             // 
             // tabPageParking
             // 
+            this.tabPageParking.Controls.Add(this.textBoxParkingUsed);
+            this.tabPageParking.Controls.Add(this.label12);
             this.tabPageParking.Controls.Add(this.textBoxLaneOut);
             this.tabPageParking.Controls.Add(this.label11);
             this.tabPageParking.Controls.Add(this.textBoxLaneIn);
@@ -279,6 +283,47 @@
             this.tabPageParking.TabIndex = 2;
             this.tabPageParking.Text = "停车位摄像头";
             this.tabPageParking.UseVisualStyleBackColor = true;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(18, 289);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(166, 24);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "已使用车位数:";
+            // 
+            // textBoxLaneOut
+            // 
+            this.textBoxLaneOut.Location = new System.Drawing.Point(501, 339);
+            this.textBoxLaneOut.Name = "textBoxLaneOut";
+            this.textBoxLaneOut.Size = new System.Drawing.Size(100, 35);
+            this.textBoxLaneOut.TabIndex = 13;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(343, 350);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(142, 24);
+            this.label11.TabIndex = 12;
+            this.label11.Text = "出口车道号:";
+            // 
+            // textBoxLaneIn
+            // 
+            this.textBoxLaneIn.Location = new System.Drawing.Point(218, 339);
+            this.textBoxLaneIn.Name = "textBoxLaneIn";
+            this.textBoxLaneIn.Size = new System.Drawing.Size(100, 35);
+            this.textBoxLaneIn.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(18, 350);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(142, 24);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "入口车道号:";
             // 
             // textBoxParkingTotal
             // 
@@ -360,37 +405,12 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "摄像头IP地址:";
             // 
-            // label10
+            // textBoxParkingUsed
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(18, 294);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 24);
-            this.label10.TabIndex = 10;
-            this.label10.Text = "入口车道号:";
-            // 
-            // textBoxLaneIn
-            // 
-            this.textBoxLaneIn.Location = new System.Drawing.Point(218, 283);
-            this.textBoxLaneIn.Name = "textBoxLaneIn";
-            this.textBoxLaneIn.Size = new System.Drawing.Size(100, 35);
-            this.textBoxLaneIn.TabIndex = 11;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(343, 294);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(142, 24);
-            this.label11.TabIndex = 12;
-            this.label11.Text = "出口车道号:";
-            // 
-            // textBoxLaneOut
-            // 
-            this.textBoxLaneOut.Location = new System.Drawing.Point(501, 283);
-            this.textBoxLaneOut.Name = "textBoxLaneOut";
-            this.textBoxLaneOut.Size = new System.Drawing.Size(100, 35);
-            this.textBoxLaneOut.TabIndex = 13;
+            this.textBoxParkingUsed.Location = new System.Drawing.Point(218, 286);
+            this.textBoxParkingUsed.Name = "textBoxParkingUsed";
+            this.textBoxParkingUsed.Size = new System.Drawing.Size(279, 35);
+            this.textBoxParkingUsed.TabIndex = 15;
             // 
             // CfgForm
             // 
@@ -454,5 +474,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBoxLaneIn;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBoxParkingUsed;
     }
 }
