@@ -12,3 +12,4 @@ D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.pdb
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\NetSDKCS.dll
 D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.CopyComplete
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\System.Web.Extensions.dll
+D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.CoreCompileInputs.cache

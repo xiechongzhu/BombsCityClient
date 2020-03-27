@@ -4106,3 +4106,446 @@ Begin Time:2020-01-04 13:56:08.288
 [2020-01-04 13:56:08.315][P:14708/T:18244][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D430000
 
 [2020-01-04 13:56:08.370][P:14708/T:18244][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-03-26 14:12:35.510
+[2020-03-26 14:12:35.510][P:11276/T:10512][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 14:12:35.517][P:11276/T:10512][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 14:12:36.259][P:11276/T:10512][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D700000
+
+[2020-03-26 14:12:36.313][P:11276/T:10512][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 14:12:38.473][P:11276/T:25468][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DAAEE48.]
+[2020-03-26 14:12:38.899][P:11276/T:25468][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=171650784.]
+[2020-03-26 14:12:38.906][P:11276/T:25468][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=171650784. nChannelID=0. rType=0]
+[2020-03-26 14:12:39.357][P:11276/T:25468][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 14:12:39.443][P:11276/T:25468][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=171763480]
+[2020-03-26 14:12:39.445][P:11276/T:25468][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=171650784, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=058538D6, dwUser=0A3B2EE0, Reserved=00000000.]
+[2020-03-26 14:12:39.447][P:11276/T:25468][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 14:12:39.724][P:11276/T:25468][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 14:12:39.965][P:11276/T:25468][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=171734856.]
+Begin Time:2020-03-26 14:17:57.908
+[2020-03-26 14:17:57.908][P:28888/T:9444][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 14:17:57.913][P:28888/T:9444][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 14:17:57.934][P:28888/T:9444][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D670000
+
+[2020-03-26 14:17:57.989][P:28888/T:9444][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-03-26 16:43:39.862
+[2020-03-26 16:43:39.862][P:26660/T:10108][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:43:39.868][P:26660/T:10108][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:43:39.894][P:26660/T:10108][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D550000
+
+[2020-03-26 16:43:39.948][P:26660/T:10108][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:43:50.278][P:26660/T:28216][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06F1ED78.]
+[2020-03-26 16:43:50.671][P:26660/T:28216][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=169084568.]
+[2020-03-26 16:43:50.671][P:26660/T:28216][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=169084568. nChannelID=0. rType=0]
+[2020-03-26 16:43:51.160][P:26660/T:28216][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:43:51.250][P:26660/T:28216][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=169192232]
+[2020-03-26 16:43:51.251][P:26660/T:28216][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=169084568, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=057A380E, dwUser=0A140698, Reserved=00000000.]
+[2020-03-26 16:43:51.252][P:26660/T:28216][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:43:51.314][P:26660/T:28216][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:43:51.949][P:26660/T:28216][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=169532944.]
+Begin Time:2020-03-26 16:46:31.049
+[2020-03-26 16:46:31.049][P:19156/T:4588][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:46:31.053][P:19156/T:4588][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:46:31.075][P:19156/T:4588][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DF10000
+
+[2020-03-26 16:46:31.130][P:19156/T:4588][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:46:32.629][P:19156/T:604][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E2AEFE8.]
+[2020-03-26 16:46:33.089][P:19156/T:604][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=179303672.]
+[2020-03-26 16:46:33.090][P:19156/T:604][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=179303672. nChannelID=0. rType=0]
+[2020-03-26 16:46:33.491][P:19156/T:604][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:46:33.548][P:19156/T:604][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=179384496]
+[2020-03-26 16:46:33.550][P:19156/T:604][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=179303672, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=061938FE, dwUser=0AAFF4F8, Reserved=00000000.]
+[2020-03-26 16:46:33.551][P:19156/T:604][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:46:33.633][P:19156/T:604][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:46:33.867][P:19156/T:604][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=179412552.]
+[2020-03-26 16:47:12.993][P:19156/T:4588][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=179384496.]
+[2020-03-26 16:47:12.993][P:19156/T:4588][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 16:47:12.994][P:19156/T:4588][dhnetsdk.cpp:8660][Info][0] Enter CLIENT_StopLoadPic. [lAnalyzerHandle=179412552.]
+[2020-03-26 16:47:12.994][P:19156/T:4588][dhnetsdk.cpp:8667][Info][0] Leave CLIENT_StopLoadPic. [ret=1.]
+[2020-03-26 16:47:12.994][P:19156/T:4588][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=179303672.]
+[2020-03-26 16:47:12.997][P:19156/T:4588][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 16:47:12.997][P:19156/T:4588][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2020-03-26 16:47:40.853
+[2020-03-26 16:47:40.853][P:21512/T:18364][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:47:40.858][P:21512/T:18364][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:47:40.883][P:21512/T:18364][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DD30000
+
+[2020-03-26 16:47:40.937][P:21512/T:18364][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:47:42.166][P:21512/T:9156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E0DEE48.]
+[2020-03-26 16:47:42.508][P:21512/T:9156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=177211576.]
+[2020-03-26 16:47:42.509][P:21512/T:9156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=177211576. nChannelID=0. rType=0]
+[2020-03-26 16:47:42.918][P:21512/T:9156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:47:42.973][P:21512/T:9156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=176765568]
+[2020-03-26 16:47:42.975][P:21512/T:9156][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=177211576, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05EE39C6, dwUser=0A9008B8, Reserved=00000000.]
+[2020-03-26 16:47:42.976][P:21512/T:9156][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:47:43.003][P:21512/T:9156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:47:43.227][P:21512/T:9156][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=177648536.]
+Begin Time:2020-03-26 16:49:14.723
+[2020-03-26 16:49:14.723][P:20740/T:27548][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:49:14.728][P:20740/T:27548][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:49:14.749][P:20740/T:27548][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DAE0000
+
+[2020-03-26 16:49:14.803][P:20740/T:27548][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:49:16.777][P:20740/T:1884][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DE6F078.]
+[2020-03-26 16:49:17.383][P:20740/T:1884][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=174657240.]
+[2020-03-26 16:49:17.384][P:20740/T:1884][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=174657240. nChannelID=0. rType=0]
+[2020-03-26 16:49:18.004][P:20740/T:1884][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:49:18.092][P:20740/T:1884][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=174765280]
+[2020-03-26 16:49:18.095][P:20740/T:1884][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=174657240, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05BC380E, dwUser=0A690ED8, Reserved=00000000.]
+[2020-03-26 16:49:18.099][P:20740/T:1884][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:49:18.189][P:20740/T:1884][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:49:18.532][P:20740/T:1884][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=175091656.]
+Begin Time:2020-03-26 16:55:19.778
+[2020-03-26 16:55:19.778][P:22864/T:19932][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:55:19.782][P:22864/T:19932][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:55:19.804][P:22864/T:19932][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D090000
+
+[2020-03-26 16:55:19.858][P:22864/T:19932][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:55:21.256][P:22864/T:15888][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D44EF28.]
+[2020-03-26 16:55:22.514][P:22864/T:15888][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=164628176.]
+[2020-03-26 16:55:22.515][P:22864/T:15888][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=164628176. nChannelID=0. rType=0]
+[2020-03-26 16:55:24.815][P:22864/T:15888][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:55:25.056][P:22864/T:15888][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=164737872]
+[2020-03-26 16:55:25.059][P:22864/T:15888][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=164628176, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=053038FE, dwUser=09D006D0, Reserved=00000000.]
+[2020-03-26 16:55:25.060][P:22864/T:15888][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:55:25.240][P:22864/T:15888][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:55:27.211][P:22864/T:15888][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=164711688.]
+Begin Time:2020-03-26 16:56:12.738
+[2020-03-26 16:56:12.738][P:21144/T:10560][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:56:12.743][P:21144/T:10560][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:56:12.765][P:21144/T:10560][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D870000
+
+[2020-03-26 16:56:12.820][P:21144/T:10560][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:56:14.291][P:21144/T:7144][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DC1EAB8.]
+[2020-03-26 16:56:14.823][P:21144/T:7144][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=172903280.]
+[2020-03-26 16:56:14.824][P:21144/T:7144][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=172903280. nChannelID=0. rType=0]
+[2020-03-26 16:56:15.291][P:21144/T:7144][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:56:15.371][P:21144/T:7144][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=172987864]
+[2020-03-26 16:56:15.372][P:21144/T:7144][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=172903280, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05A13B2E, dwUser=0A4E4B70, Reserved=00000000.]
+[2020-03-26 16:56:15.373][P:21144/T:7144][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:56:15.444][P:21144/T:7144][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:56:15.645][P:21144/T:7144][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=173337992.]
+Begin Time:2020-03-26 16:56:29.716
+[2020-03-26 16:56:29.716][P:7152/T:10100][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:56:29.721][P:7152/T:10100][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:56:29.741][P:7152/T:10100][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D150000
+
+[2020-03-26 16:56:29.795][P:7152/T:10100][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:56:35.687][P:7152/T:13296][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D4CED08.]
+[2020-03-26 16:56:36.128][P:7152/T:13296][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165703368.]
+[2020-03-26 16:56:36.128][P:7152/T:13296][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165703368. nChannelID=0. rType=0]
+[2020-03-26 16:56:36.760][P:7152/T:13296][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:56:36.841][P:7152/T:13296][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165816552]
+[2020-03-26 16:56:36.842][P:7152/T:13296][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=165703368, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=053538AE, dwUser=09E06EC8, Reserved=00000000.]
+[2020-03-26 16:56:36.843][P:7152/T:13296][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:56:36.917][P:7152/T:13296][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:56:37.150][P:7152/T:13296][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=165792080.]
+Begin Time:2020-03-26 16:59:23.358
+[2020-03-26 16:59:23.358][P:9652/T:12528][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 16:59:23.363][P:9652/T:12528][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:59:23.384][P:9652/T:12528][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D7A0000
+
+[2020-03-26 16:59:23.439][P:9652/T:12528][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 16:59:24.676][P:9652/T:5016][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DB5ED28.]
+[2020-03-26 16:59:25.228][P:9652/T:5016][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=172035800.]
+[2020-03-26 16:59:25.229][P:9652/T:5016][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=172035800. nChannelID=0. rType=0]
+[2020-03-26 16:59:25.701][P:9652/T:5016][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:59:25.789][P:9652/T:5016][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=172144368]
+[2020-03-26 16:59:25.790][P:9652/T:5016][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=172035800, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05923A3E, dwUser=0A410ED8, Reserved=00000000.]
+[2020-03-26 16:59:25.791][P:9652/T:5016][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 16:59:25.867][P:9652/T:5016][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 16:59:26.046][P:9652/T:5016][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=172480968.]
+[2020-03-26 16:59:58.957][P:9652/T:26232][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[12200][0]
+Begin Time:2020-03-26 17:00:26.526
+[2020-03-26 17:00:26.526][P:1124/T:24480][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:00:26.530][P:1124/T:24480][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:00:26.553][P:1124/T:24480][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D760000
+
+[2020-03-26 17:00:26.607][P:1124/T:24480][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:00:28.255][P:1124/T:22420][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DAEEA98.]
+[2020-03-26 17:00:29.757][P:1124/T:22420][TPTCPClient.cpp:378][Error][90010007] Connect host failed, ip:221.182.126.73
+[2020-03-26 17:00:29.757][P:1124/T:22420][dhdevprob.cpp:2226][Error][8000040a] Failed to create main connection
+[2020-03-26 17:00:29.757][P:1124/T:22420][Manager.cpp:7549][Error][90010002] device is NULL
+[2020-03-26 17:00:29.757][P:1124/T:22420][Manager.cpp:7646][Error][90010002] Login device failed, errorcode:9!
+[2020-03-26 17:00:29.757][P:1124/T:22420][dhnetsdk.cpp:609][Error][90010002] Login failed, ip:221.182.126.73, port:37777, specCap:0!
+[2020-03-26 17:00:29.757][P:1124/T:22420][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=9, login ID=0.]
+[2020-03-26 17:00:29.759][P:1124/T:22420][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:00:29.759][P:1124/T:22420][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=8000006b.]
+Begin Time:2020-03-26 17:00:42.579
+[2020-03-26 17:00:42.579][P:26856/T:12168][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:00:42.584][P:26856/T:12168][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:00:42.605][P:26856/T:12168][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D8F0000
+
+[2020-03-26 17:00:42.660][P:26856/T:12168][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:00:44.157][P:26856/T:27416][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E49EB18.]
+[2020-03-26 17:00:44.823][P:26856/T:27416][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=172624744.]
+[2020-03-26 17:00:44.824][P:26856/T:27416][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=172624744. nChannelID=0. rType=0]
+[2020-03-26 17:00:45.210][P:26856/T:27416][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:00:45.332][P:26856/T:27416][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=172710688]
+[2020-03-26 17:00:45.333][P:26856/T:27416][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=172624744, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=059C3ADE, dwUser=0A4A0B68, Reserved=00000000.]
+[2020-03-26 17:00:45.334][P:26856/T:27416][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:00:45.913][P:26856/T:27416][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:00:46.358][P:26856/T:27416][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=172703120.]
+Begin Time:2020-03-26 17:02:07.433
+[2020-03-26 17:02:07.433][P:25836/T:12052][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:02:07.438][P:25836/T:12052][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:02:07.460][P:25836/T:12052][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DB10000
+
+[2020-03-26 17:02:07.515][P:25836/T:12052][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:02:29.358][P:25836/T:26896][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F43EF38.]
+[2020-03-26 17:02:29.365][P:25836/T:1308][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F23EE84.]
+[2020-03-26 17:02:29.837][P:25836/T:1308][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=175442672.]
+[2020-03-26 17:02:29.839][P:25836/T:1308][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=175442672. nChannelID=0. rType=0]
+[2020-03-26 17:02:29.919][P:25836/T:26896][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=175452928.]
+[2020-03-26 17:02:29.920][P:25836/T:26896][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=175452928. nChannelID=0. rType=0]
+[2020-03-26 17:02:30.412][P:25836/T:1308][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:02:30.472][P:25836/T:1308][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=175622656]
+[2020-03-26 17:02:30.476][P:25836/T:1308][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=175442672, pInParam=0F23EF40, pOutParam=0F23F118, nWaitTime=5000.]
+[2020-03-26 17:02:30.615][P:25836/T:26896][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:02:30.667][P:25836/T:1308][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:02:30.667][P:25836/T:1308][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:02:30.667][P:25836/T:1308][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:02:30.669][P:25836/T:1308][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=175622656.]
+[2020-03-26 17:02:30.670][P:25836/T:1308][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:02:30.670][P:25836/T:1308][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=175442672.]
+[2020-03-26 17:02:30.670][P:25836/T:1308][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:02:30.670][P:25836/T:1308][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:02:30.716][P:25836/T:26896][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=175659496]
+[2020-03-26 17:02:30.717][P:25836/T:26896][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=175452928, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05C5634E, dwUser=0A753300, Reserved=00000000.]
+[2020-03-26 17:02:30.718][P:25836/T:26896][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:02:30.812][P:25836/T:26896][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:02:31.044][P:25836/T:26896][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=175544032.]
+Begin Time:2020-03-26 17:02:56.028
+[2020-03-26 17:02:56.028][P:23052/T:8564][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:02:56.033][P:23052/T:8564][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:02:56.054][P:23052/T:8564][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DCC0000
+
+[2020-03-26 17:02:56.109][P:23052/T:8564][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:02:57.393][P:23052/T:6056][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DFDEA14.]
+[2020-03-26 17:02:57.393][P:23052/T:8848][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0E21EE08.]
+[2020-03-26 17:02:59.718][P:23052/T:8848][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=177025696.]
+[2020-03-26 17:02:59.720][P:23052/T:8848][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=177025696. nChannelID=0. rType=0]
+[2020-03-26 17:02:59.900][P:23052/T:6056][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=177035800.]
+[2020-03-26 17:02:59.900][P:23052/T:6056][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=177035800. nChannelID=0. rType=0]
+[2020-03-26 17:03:00.877][P:23052/T:8848][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:00.943][P:23052/T:8848][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=177052144]
+[2020-03-26 17:03:00.944][P:23052/T:8848][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=177025696, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05DD385E, dwUser=0A8D32A0, Reserved=00000000.]
+[2020-03-26 17:03:00.945][P:23052/T:8848][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:03:00.978][P:23052/T:8848][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:01.110][P:23052/T:6056][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:01.298][P:23052/T:6056][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=177208368]
+[2020-03-26 17:03:01.300][P:23052/T:6056][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=177035800, pInParam=0DFDEAD0, pOutParam=0DFDECA8, nWaitTime=5000.]
+[2020-03-26 17:03:01.302][P:23052/T:8848][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=177053208.]
+[2020-03-26 17:03:01.453][P:23052/T:6056][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:03:01.454][P:23052/T:6056][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:03:01.454][P:23052/T:6056][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:03:01.459][P:23052/T:6056][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=177208368.]
+[2020-03-26 17:03:01.459][P:23052/T:6056][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:03:01.460][P:23052/T:6056][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=177035800.]
+[2020-03-26 17:03:01.461][P:23052/T:6056][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:03:01.461][P:23052/T:6056][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:03:11.476][P:23052/T:6056][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DFDEA14.]
+[2020-03-26 17:03:12.059][P:23052/T:6056][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=177035240.]
+[2020-03-26 17:03:12.059][P:23052/T:6056][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=177035240. nChannelID=0. rType=0]
+[2020-03-26 17:03:12.542][P:23052/T:6056][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:12.681][P:23052/T:6056][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=177045336]
+[2020-03-26 17:03:12.681][P:23052/T:6056][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=177035240, pInParam=0DFDEAD0, pOutParam=0DFDECA8, nWaitTime=5000.]
+[2020-03-26 17:03:12.729][P:23052/T:6056][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:03:12.729][P:23052/T:6056][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:03:12.729][P:23052/T:6056][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:03:12.737][P:23052/T:6056][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=177045336.]
+[2020-03-26 17:03:12.737][P:23052/T:6056][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:03:12.737][P:23052/T:6056][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=177035240.]
+[2020-03-26 17:03:12.737][P:23052/T:6056][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:03:12.737][P:23052/T:6056][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2020-03-26 17:03:35.931
+[2020-03-26 17:03:35.931][P:17024/T:14908][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:03:35.936][P:17024/T:14908][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:03:35.957][P:17024/T:14908][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0DA10000
+
+[2020-03-26 17:03:36.012][P:17024/T:14908][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:03:38.164][P:17024/T:22988][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DD3EF34.]
+[2020-03-26 17:03:38.165][P:17024/T:3156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0DF7EC58.]
+[2020-03-26 17:03:38.716][P:17024/T:22988][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=174322840.]
+[2020-03-26 17:03:38.717][P:17024/T:22988][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=174322840. nChannelID=0. rType=0]
+[2020-03-26 17:03:38.798][P:17024/T:3156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=174333096.]
+[2020-03-26 17:03:38.799][P:17024/T:3156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=174333096. nChannelID=0. rType=0]
+[2020-03-26 17:03:39.238][P:17024/T:3156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:39.294][P:17024/T:3156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=174501664]
+[2020-03-26 17:03:39.295][P:17024/T:3156][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=174333096, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05CC3ADE, dwUser=0A641CA8, Reserved=00000000.]
+[2020-03-26 17:03:39.296][P:17024/T:3156][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:03:39.373][P:17024/T:3156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:39.396][P:17024/T:22988][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:03:39.466][P:17024/T:22988][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=174523272]
+[2020-03-26 17:03:39.468][P:17024/T:22988][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=174322840, pInParam=0DD3EFF0, pOutParam=0DD3F1C8, nWaitTime=5000.]
+[2020-03-26 17:03:39.522][P:17024/T:22988][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:03:39.523][P:17024/T:22988][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:03:39.523][P:17024/T:22988][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:03:39.524][P:17024/T:3156][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=174480456.]
+[2020-03-26 17:03:39.525][P:17024/T:22988][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=174523272.]
+[2020-03-26 17:03:39.525][P:17024/T:22988][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:03:39.525][P:17024/T:22988][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=174322840.]
+[2020-03-26 17:03:39.526][P:17024/T:22988][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:03:39.526][P:17024/T:22988][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2020-03-26 17:05:00.759
+[2020-03-26 17:05:00.759][P:17608/T:12668][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:05:00.764][P:17608/T:12668][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:05:00.786][P:17608/T:12668][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D130000
+
+[2020-03-26 17:05:00.842][P:17608/T:12668][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:05:02.105][P:17608/T:5016][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D69F0E8.]
+[2020-03-26 17:05:02.105][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:05:02.635][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092520.]
+[2020-03-26 17:05:02.636][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092520. nChannelID=0. rType=0]
+[2020-03-26 17:05:02.638][P:17608/T:5016][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165082264.]
+[2020-03-26 17:05:02.643][P:17608/T:5016][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165082264. nChannelID=0. rType=0]
+[2020-03-26 17:05:03.181][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:03.271][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165289136]
+[2020-03-26 17:05:03.272][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092520, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:05:03.289][P:17608/T:5016][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:03.334][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:03.334][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:03.334][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:03.335][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165289136.]
+[2020-03-26 17:05:03.335][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:03.336][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092520.]
+[2020-03-26 17:05:03.336][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:03.336][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:05:03.340][P:17608/T:5016][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165288056]
+[2020-03-26 17:05:03.350][P:17608/T:5016][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=165082264, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05223BA6, dwUser=09D6F498, Reserved=00000000.]
+[2020-03-26 17:05:03.352][P:17608/T:5016][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:05:03.469][P:17608/T:5016][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:03.621][P:17608/T:5016][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=165104920.]
+[2020-03-26 17:05:13.344][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:05:13.838][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:05:13.841][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:05:14.382][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:14.448][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165285328]
+[2020-03-26 17:05:14.449][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:05:14.573][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:14.573][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:14.573][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:14.574][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165285328.]
+[2020-03-26 17:05:14.574][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:14.574][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:05:14.575][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:14.575][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:05:23.338][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:05:23.856][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:05:23.856][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:05:24.262][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:24.382][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165263200]
+[2020-03-26 17:05:24.382][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:05:24.426][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:24.427][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:24.427][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:24.428][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165263200.]
+[2020-03-26 17:05:24.428][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:24.428][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:05:24.428][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:24.429][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:05:33.355][P:17608/T:5016][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D69F0B4.]
+[2020-03-26 17:05:33.837][P:17608/T:5016][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:05:33.837][P:17608/T:5016][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:05:34.589][P:17608/T:5016][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:34.702][P:17608/T:5016][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165286360]
+[2020-03-26 17:05:34.702][P:17608/T:5016][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D69F170, pOutParam=0D69F348, nWaitTime=5000.]
+[2020-03-26 17:05:34.754][P:17608/T:5016][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:34.754][P:17608/T:5016][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:34.754][P:17608/T:5016][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:34.757][P:17608/T:5016][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165286360.]
+[2020-03-26 17:05:34.757][P:17608/T:5016][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:34.757][P:17608/T:5016][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:05:34.758][P:17608/T:5016][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:34.758][P:17608/T:5016][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:05:43.355][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:05:43.843][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:05:43.846][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:05:44.306][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:44.415][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165108088]
+[2020-03-26 17:05:44.416][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:05:44.478][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:44.478][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:44.478][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:44.480][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165108088.]
+[2020-03-26 17:05:44.480][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:44.480][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:05:44.480][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:44.480][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:05:53.366][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:05:53.848][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:05:53.854][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:05:54.509][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:05:54.856][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165249056]
+[2020-03-26 17:05:54.860][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:05:54.971][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:05:54.971][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:05:54.971][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:05:54.975][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165249056.]
+[2020-03-26 17:05:54.975][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:05:54.975][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:05:54.976][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:05:54.976][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:06:03.385][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+[2020-03-26 17:06:03.756][P:17608/T:9352][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=165092472.]
+[2020-03-26 17:06:03.761][P:17608/T:9352][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=165092472. nChannelID=0. rType=0]
+[2020-03-26 17:06:04.103][P:17608/T:9352][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:06:04.167][P:17608/T:9352][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=165249056]
+[2020-03-26 17:06:04.168][P:17608/T:9352][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=165092472, pInParam=0D45EE80, pOutParam=0D45F058, nWaitTime=5000.]
+[2020-03-26 17:06:04.217][P:17608/T:9352][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:06:04.217][P:17608/T:9352][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:06:04.218][P:17608/T:9352][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:06:04.218][P:17608/T:9352][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=165249056.]
+[2020-03-26 17:06:04.219][P:17608/T:9352][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:06:04.219][P:17608/T:9352][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=165092472.]
+[2020-03-26 17:06:04.219][P:17608/T:9352][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:06:04.219][P:17608/T:9352][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:06:13.386][P:17608/T:9352][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0D45EDC4.]
+Begin Time:2020-03-26 17:06:59.418
+[2020-03-26 17:06:59.418][P:25192/T:20352][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:06:59.422][P:25192/T:20352][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:06:59.437][P:25192/T:20352][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D890000
+
+[2020-03-26 17:06:59.489][P:25192/T:20352][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2020-03-26 17:07:03.895
+[2020-03-26 17:07:03.895][P:26656/T:24900][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2020-03-26 17:07:03.899][P:26656/T:24900][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:07:03.915][P:26656/T:24900][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0D340000
+
+[2020-03-26 17:07:03.967][P:26656/T:24900][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2020-03-26 17:07:16.488][P:26656/T:22444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0784EAD8.]
+[2020-03-26 17:07:16.494][P:26656/T:27720][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=079CEC7C.]
+[2020-03-26 17:07:17.232][P:26656/T:22444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=167269880.]
+[2020-03-26 17:07:17.232][P:26656/T:27720][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=167260808.]
+[2020-03-26 17:07:17.235][P:26656/T:22444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=167269880. nChannelID=0. rType=0]
+[2020-03-26 17:07:17.246][P:26656/T:27720][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=167260808. nChannelID=0. rType=0]
+[2020-03-26 17:07:17.896][P:26656/T:22444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:07:17.937][P:26656/T:27720][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:07:17.996][P:26656/T:22444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=167283576]
+[2020-03-26 17:07:17.996][P:26656/T:22444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=167269880, pInParam=0784EB94, pOutParam=0784ED1C, nWaitTime=5000.]
+[2020-03-26 17:07:18.105][P:26656/T:22444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:07:18.105][P:26656/T:27720][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=167477720]
+[2020-03-26 17:07:18.105][P:26656/T:22444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:07:18.105][P:26656/T:22444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:07:18.106][P:26656/T:27720][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=167260808, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=055C5C56, dwUser=09F83288, Reserved=00000000.]
+[2020-03-26 17:07:18.107][P:26656/T:27720][Utils.cpp:4792][Info][0] mutil NIC client
+[2020-03-26 17:07:18.118][P:26656/T:22444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=167283576.]
+[2020-03-26 17:07:18.118][P:26656/T:22444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:07:18.118][P:26656/T:22444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=167269880.]
+[2020-03-26 17:07:18.118][P:26656/T:22444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:07:18.118][P:26656/T:22444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2020-03-26 17:07:18.189][P:26656/T:27720][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:07:18.485][P:26656/T:27720][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=167472256.]
+[2020-03-26 17:07:28.121][P:26656/T:22444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0784EAD8.]
+[2020-03-26 17:07:28.544][P:26656/T:22444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=133250176.]
+[2020-03-26 17:07:28.546][P:26656/T:22444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=133250176. nChannelID=0. rType=0]
+[2020-03-26 17:07:29.054][P:26656/T:22444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2020-03-26 17:07:29.109][P:26656/T:22444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=167493984]
+[2020-03-26 17:07:29.110][P:26656/T:22444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=133250176, pInParam=0784EB94, pOutParam=0784ED1C, nWaitTime=5000.]
+[2020-03-26 17:07:29.174][P:26656/T:22444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2020-03-26 17:07:29.174][P:26656/T:22444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2020-03-26 17:07:29.174][P:26656/T:22444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2020-03-26 17:07:29.175][P:26656/T:22444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=167493984.]
+[2020-03-26 17:07:29.175][P:26656/T:22444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2020-03-26 17:07:29.175][P:26656/T:22444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=133250176.]
+[2020-03-26 17:07:29.175][P:26656/T:22444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2020-03-26 17:07:29.175][P:26656/T:22444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]

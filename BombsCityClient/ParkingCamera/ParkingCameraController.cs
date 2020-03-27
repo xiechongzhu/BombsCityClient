@@ -44,7 +44,7 @@ namespace BombsCityClient.ParkingCamera
             this.m_LoginID = IntPtr.Zero;
             this.m_PlayID = IntPtr.Zero;
             this.m_EventID = IntPtr.Zero;
-            autoLoginTimer.Interval = 30000;
+            autoLoginTimer.Interval = 10000;
             autoLoginTimer.Elapsed += new ElapsedEventHandler(AutoLoginTimeout);
             m_AnalyzerDataCallBack = new fAnalyzerDataCallBack(AnalyzerDataCallBack);
             m_inCount = m_outCount = 0;

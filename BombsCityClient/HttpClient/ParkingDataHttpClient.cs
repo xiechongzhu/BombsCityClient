@@ -7,6 +7,7 @@ using System.Net;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.Script.Serialization;
 
 namespace BombsCityClient.HttpClient
@@ -34,9 +35,16 @@ namespace BombsCityClient.HttpClient
             {
                 JavaScriptSerializer js = new JavaScriptSerializer();
                 String json = js.Serialize(data);
-                String url = String.Format("{0}?clustertag={1}&data=[{2}]", GlobalConfig.GetInstance().ParkingUrl, GlobalConfig.GetInstance().ClusterTag, json);
+                String url = GlobalConfig.GetInstance().ParkingUrl;
                 HttpWebRequest httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
                 httpWebRequest.Method = "POST";
+                httpWebRequest.ContentType = "application/x-www-form-urlencoded";
+                string strContent = String.Format("clustertag={0}&data=[{1}]",  GlobalConfig.GetInstance().ClusterTag, json);
+                using (StreamWriter stOut = new StreamWriter(httpWebRequest.GetRequestStream(), Encoding.ASCII))
+                {
+                    stOut.Write(strContent);
+                    stOut.Close();
+                }
                 HttpWebResponse httpWebResponse = (HttpWebResponse)httpWebRequest.GetResponse();
                 StreamReader streamReader = new StreamReader(httpWebResponse.GetResponseStream(), Encoding.UTF8);
                 String responseContent = streamReader.ReadToEnd();
