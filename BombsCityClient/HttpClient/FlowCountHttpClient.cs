@@ -64,7 +64,7 @@ namespace BombsCityClient.HttpClient
                 streamReader.Close();
                 httpWebResponse.Close();
 
-                FlowCountResponse response = js.Deserialize<FlowCountResponse>(responseContent);
+                DataStruct.HttpResponse response = js.Deserialize<DataStruct.HttpResponse>(responseContent);
                 if(response.code != 0)
                 {
                     Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_ERROR, String.Format("推送人流量数据失败,错误:{0}", response.message));

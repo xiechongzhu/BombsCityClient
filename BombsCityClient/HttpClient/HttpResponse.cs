@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BombsCityClient.DataStruct
 {
-    class FlowCountResponse
+    class HttpResponse
     {
         public int code { get; set; }
         public String message { get; set; }

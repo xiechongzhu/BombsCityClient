@@ -93,7 +93,7 @@
     </Compile>
     <Compile Include="Config\GlobalConfig.cs" />
     <Compile Include="DataStruct\FlowCount.cs" />
-    <Compile Include="DataStruct\FlowCountResponse.cs" />
+    <Compile Include="HttpClient\HttpResponse.cs" />
     <Compile Include="DataStruct\FlowCountUpload.cs" />
     <Compile Include="DataStruct\ParkingDataUpload.cs" />
     <Compile Include="FlowCamera\FlowCameraController.cs" />
