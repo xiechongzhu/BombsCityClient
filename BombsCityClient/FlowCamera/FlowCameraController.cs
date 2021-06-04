@@ -22,7 +22,7 @@ namespace BombsCityClient.FlowCamera
         private IntPtr m_AttactID;
         private NET_DEVICEINFO_Ex m_DevicInfo = new NET_DEVICEINFO_Ex();
         private Timer autoLoginTimer = new Timer();
-        private Timer clearTimer = new Timer();
+        //private Timer clearTimer = new Timer();
         private fVideoStatSumCallBack m_VideoStatSumCallBack;
         public FlowCount flowCount { get; set; }
 
@@ -37,13 +37,15 @@ namespace BombsCityClient.FlowCamera
             this.m_AttactID = IntPtr.Zero;  
             autoLoginTimer.Interval = 10000;
             autoLoginTimer.Elapsed += new ElapsedEventHandler(AutoLoginTimeout);
-            clearTimer.Interval = 5000;
-            clearTimer.Elapsed += new ElapsedEventHandler(ClearTimeout);
+            //clearTimer.Interval = 5000;
+            //clearTimer.Elapsed += new ElapsedEventHandler(ClearTimeout);
             m_VideoStatSumCallBack = new fVideoStatSumCallBack(VideoStatSumCallBack);
 
-            flowCount = new FlowCount();
-            flowCount.Detained = 0;
-            flowCount.Entered = 0;
+            flowCount = new FlowCount
+            {
+                Detained = 0,
+                Entered = 0
+            };
         }
 
         protected delegate void LoginDelegate();
@@ -89,7 +91,7 @@ namespace BombsCityClient.FlowCamera
                 return;
             }
             Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("订阅人流量统计摄像头统计数据成功,IP={0},PORT={1}", ipAddress, port));
-            clearTimer.Start();
+            //clearTimer.Start();
             autoLoginTimer.Stop();
         }
 
@@ -116,7 +118,7 @@ namespace BombsCityClient.FlowCamera
             NETClient.DetachVideoStatSummary(m_AttactID);
             m_AttactID = IntPtr.Zero;
             autoLoginTimer.Stop();
-            clearTimer.Stop();
+            //clearTimer.Stop();
             
             if (NETClient.Logout(m_LoginID))
             {
@@ -137,7 +139,7 @@ namespace BombsCityClient.FlowCamera
             m_AttactID = IntPtr.Zero;
             Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("开始自动连接人流量统计摄像头,IP={0},PORT={1}", ipAddress, port));
             autoLoginTimer.Start();
-            clearTimer.Stop();
+            //clearTimer.Stop();
         }
 
         protected void AutoLoginTimeout(object source, ElapsedEventArgs e)
@@ -145,10 +147,10 @@ namespace BombsCityClient.FlowCamera
             Login();
         }
 
-        protected void ClearTimeout(object source, ElapsedEventArgs e)
+        /*protected void ClearTimeout(object source, ElapsedEventArgs e)
         {
             ClearFlowCount();
-        }
+        }*/
 
         protected void VideoStatSumCallBack(IntPtr lAttachHandle, IntPtr pBuf, uint dwBufLen, IntPtr dwUser)
         {
@@ -160,7 +162,7 @@ namespace BombsCityClient.FlowCamera
             }
         }
 
-        protected void ClearFlowCount()
+        /*protected void ClearFlowCount()
         {
             NET_CTRL_CLEAR_SECTION_STAT_INFO info = new NET_CTRL_CLEAR_SECTION_STAT_INFO();
             info.dwSize = (uint)Marshal.SizeOf(typeof(NET_CTRL_CLEAR_SECTION_STAT_INFO));
@@ -172,6 +174,6 @@ namespace BombsCityClient.FlowCamera
             {
                 flowCount.Entered = 0;
             }
-        }
+        }*/
     }
 }

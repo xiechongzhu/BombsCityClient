@@ -53,8 +53,8 @@ namespace BombsCityClient.ParkingCamera
             int carOut = 0;
             foreach (ParkingCameraController controller in Controllers.Values)
             {
-                carIn += controller.GetCarInCount();
-                carOut += controller.GetCarOutCount();
+                carIn += controller.GetCarInCountTotal();
+                carOut += controller.GetCarOutCountTotal();
             }
 
             dataUpload.time = DateTime.Now.ToString("yyyy-MM-dd HH");

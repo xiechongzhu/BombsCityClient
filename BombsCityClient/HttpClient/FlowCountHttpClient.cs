@@ -32,11 +32,13 @@ namespace BombsCityClient.HttpClient
         protected void InternalUploadFlowCounts(List<FlowCount> flowCounts)
         {
             FlowUploadInfo flowUploadInfo = new FlowUploadInfo();
-            FlowInfo flowInfo = new FlowInfo();
-            flowInfo.time = DateTime.Now.ToString("yyyy-MM-dd HH");
-            flowInfo.resourcecode = GlobalConfig.GetInstance().ResourceCode;
-            flowInfo.rtnumber = 0;
-            flowInfo.realpeopleInto = 0;
+            FlowInfo flowInfo = new FlowInfo
+            {
+                time = DateTime.Now.ToString("yyyy-MM-dd HH"),
+                resourcecode = GlobalConfig.GetInstance().ResourceCode,
+                rtnumber = 0,
+                realpeopleInto = 0
+            };
             foreach (FlowCount flowCount in flowCounts)
             {
                 flowInfo.rtnumber += flowCount.Detained;

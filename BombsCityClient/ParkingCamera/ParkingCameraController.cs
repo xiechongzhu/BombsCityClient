@@ -22,17 +22,17 @@ namespace BombsCityClient.ParkingCamera
         private static fAnalyzerDataCallBack m_AnalyzerDataCallBack;
         private NET_DEVICEINFO_Ex m_DevicInfo = new NET_DEVICEINFO_Ex();
         private Timer autoLoginTimer = new Timer();
-        private int m_inCount { get; set; }
-        private int m_outCount { get; set; }
+        private int m_inCountTotal;
+        private int m_outCountTotal;
 
-        public int GetCarInCount()
+        public int GetCarInCountTotal()
         {
-            return m_inCount;
+            return m_inCountTotal;
         }
 
-        public int GetCarOutCount()
+        public int GetCarOutCountTotal()
         {
-            return m_outCount;
+            return m_outCountTotal;
         }
 
         public ParkingCameraController(String ipAddress, UInt32 port, String userName, String password)
@@ -47,7 +47,7 @@ namespace BombsCityClient.ParkingCamera
             autoLoginTimer.Interval = 10000;
             autoLoginTimer.Elapsed += new ElapsedEventHandler(AutoLoginTimeout);
             m_AnalyzerDataCallBack = new fAnalyzerDataCallBack(AnalyzerDataCallBack);
-            m_inCount = m_outCount = 0;
+            m_inCountTotal = m_outCountTotal = 0;
         }
 
         protected delegate void LoginDelegate();
@@ -151,12 +151,12 @@ namespace BombsCityClient.ParkingCamera
                     if (GlobalConfig.GetInstance().parkingCameraCfg.LaneIn == info.nLane)
                     {
                         Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆进入停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
-                        m_inCount++;
+                        m_inCountTotal++;
                     }
                     else if(GlobalConfig.GetInstance().parkingCameraCfg.LaneOut == info.nLane)
                     {
                         Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("检测到车辆离开停车场,车牌号:{0}", info.stTrafficCar.szPlateNumber));
-                        m_outCount++;
+                        m_outCountTotal++;
                     }
                     break;
                 default:
