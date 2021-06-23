@@ -23,4 +23,5 @@
     <LaneIn>1</LaneIn>
     <LaneOut>2</LaneOut>
   </parkingCameraCfg>
+  <ZytfUrl>http://sclyj-jrtb.dev.daqsoft.com/push/big/screen/entrance/guard</ZytfUrl>
 </GlobalConfig>

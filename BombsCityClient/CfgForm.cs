@@ -29,6 +29,7 @@ namespace BombsCityClient
             textBoxParkingUsed.Text = GlobalConfig.GetInstance().parkingCameraCfg.ParkingUsed.ToString();
             textBoxLaneIn.Text = GlobalConfig.GetInstance().parkingCameraCfg.LaneIn.ToString();
             textBoxLaneOut.Text = GlobalConfig.GetInstance().parkingCameraCfg.LaneOut.ToString();
+            textBoxZytf.Text = GlobalConfig.GetInstance().ZytfUrl;
         }
 
         private void btnAddFlowCam_Click(object sender, EventArgs e)
@@ -118,6 +119,7 @@ namespace BombsCityClient
             GlobalConfig.GetInstance().ResourceCode = textBoxResourceCode.Text;
             GlobalConfig.GetInstance().RtPeopleUrl = textBoxRtPeopleUrl.Text;
             GlobalConfig.GetInstance().ParkingUrl = textBoxParkingUrl.Text;
+            GlobalConfig.GetInstance().ZytfUrl = textBoxZytf.Text;
 
             GlobalConfig.GetInstance().parkingCameraCfg.IpAddress = textBoxParingCamAddr.Text;
             try

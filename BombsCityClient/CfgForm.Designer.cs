@@ -41,6 +41,7 @@
             this.btnAddFlowCam = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageGlobal = new System.Windows.Forms.TabPage();
+            this.label13 = new System.Windows.Forms.Label();
             this.textBoxParkingUrl = new System.Windows.Forms.TextBox();
             this.textBoxRtPeopleUrl = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -50,6 +51,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPageParking = new System.Windows.Forms.TabPage();
+            this.textBoxParkingUsed = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.textBoxLaneOut = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -65,7 +67,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBoxParingCamAddr = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBoxParkingUsed = new System.Windows.Forms.TextBox();
+            this.textBoxZytf = new System.Windows.Forms.TextBox();
             this.tabPageFlowCam.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPageGlobal.SuspendLayout();
@@ -178,6 +180,8 @@
             // 
             // tabPageGlobal
             // 
+            this.tabPageGlobal.Controls.Add(this.textBoxZytf);
+            this.tabPageGlobal.Controls.Add(this.label13);
             this.tabPageGlobal.Controls.Add(this.textBoxParkingUrl);
             this.tabPageGlobal.Controls.Add(this.textBoxRtPeopleUrl);
             this.tabPageGlobal.Controls.Add(this.label4);
@@ -194,6 +198,15 @@
             this.tabPageGlobal.Text = "景区信息";
             this.tabPageGlobal.UseVisualStyleBackColor = true;
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(11, 242);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(262, 24);
+            this.label13.TabIndex = 8;
+            this.label13.Text = "智游天府综合管理平台:";
+            // 
             // textBoxParkingUrl
             // 
             this.textBoxParkingUrl.Location = new System.Drawing.Point(284, 182);
@@ -203,7 +216,7 @@
             // 
             // textBoxRtPeopleUrl
             // 
-            this.textBoxRtPeopleUrl.Location = new System.Drawing.Point(284, 134);
+            this.textBoxRtPeopleUrl.Location = new System.Drawing.Point(284, 132);
             this.textBoxRtPeopleUrl.Name = "textBoxRtPeopleUrl";
             this.textBoxRtPeopleUrl.Size = new System.Drawing.Size(692, 35);
             this.textBoxRtPeopleUrl.TabIndex = 6;
@@ -211,7 +224,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 182);
+            this.label4.Location = new System.Drawing.Point(7, 187);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(238, 24);
             this.label4.TabIndex = 5;
@@ -228,14 +241,14 @@
             // 
             // textBoxResourceCode
             // 
-            this.textBoxResourceCode.Location = new System.Drawing.Point(140, 75);
+            this.textBoxResourceCode.Location = new System.Drawing.Point(140, 73);
             this.textBoxResourceCode.Name = "textBoxResourceCode";
             this.textBoxResourceCode.Size = new System.Drawing.Size(240, 35);
             this.textBoxResourceCode.TabIndex = 3;
             // 
             // textBoxClusterTag
             // 
-            this.textBoxClusterTag.Location = new System.Drawing.Point(140, 21);
+            this.textBoxClusterTag.Location = new System.Drawing.Point(140, 19);
             this.textBoxClusterTag.Name = "textBoxClusterTag";
             this.textBoxClusterTag.Size = new System.Drawing.Size(240, 35);
             this.textBoxClusterTag.TabIndex = 2;
@@ -283,6 +296,13 @@
             this.tabPageParking.TabIndex = 2;
             this.tabPageParking.Text = "停车位摄像头";
             this.tabPageParking.UseVisualStyleBackColor = true;
+            // 
+            // textBoxParkingUsed
+            // 
+            this.textBoxParkingUsed.Location = new System.Drawing.Point(218, 286);
+            this.textBoxParkingUsed.Name = "textBoxParkingUsed";
+            this.textBoxParkingUsed.Size = new System.Drawing.Size(279, 35);
+            this.textBoxParkingUsed.TabIndex = 15;
             // 
             // label12
             // 
@@ -405,12 +425,12 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "摄像头IP地址:";
             // 
-            // textBoxParkingUsed
+            // textBoxZytf
             // 
-            this.textBoxParkingUsed.Location = new System.Drawing.Point(218, 286);
-            this.textBoxParkingUsed.Name = "textBoxParkingUsed";
-            this.textBoxParkingUsed.Size = new System.Drawing.Size(279, 35);
-            this.textBoxParkingUsed.TabIndex = 15;
+            this.textBoxZytf.Location = new System.Drawing.Point(284, 237);
+            this.textBoxZytf.Name = "textBoxZytf";
+            this.textBoxZytf.Size = new System.Drawing.Size(692, 35);
+            this.textBoxZytf.TabIndex = 9;
             // 
             // CfgForm
             // 
@@ -476,5 +496,7 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBoxParkingUsed;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBoxZytf;
     }
 }

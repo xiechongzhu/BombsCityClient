@@ -6319,3 +6319,869 @@ Begin Time:2021-06-04 22:55:07.311
 [2021-06-04 22:55:07.349][P:844/T:3452][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0EFD0000
 
 [2021-06-04 22:55:07.405][P:844/T:3452][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2021-06-15 21:21:13.012
+[2021-06-15 21:21:13.012][P:6904/T:10296][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 21:21:13.026][P:6904/T:10296][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 21:21:14.267][P:6904/T:10296][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0EA70000
+
+[2021-06-15 21:21:14.326][P:6904/T:10296][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2021-06-15 21:30:27.971
+[2021-06-15 21:30:27.972][P:22576/T:18512][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 21:30:27.982][P:22576/T:18512][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 21:30:28.020][P:22576/T:18512][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0F0B0000
+
+[2021-06-15 21:30:28.080][P:22576/T:18512][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2021-06-15 21:31:13.164
+[2021-06-15 21:31:13.164][P:22556/T:12412][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 21:31:13.173][P:22556/T:12412][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 21:31:13.210][P:22556/T:12412][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0F210000
+
+[2021-06-15 21:31:13.275][P:22556/T:12412][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2021-06-15 22:55:54.157
+[2021-06-15 22:55:54.157][P:14548/T:20620][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 22:55:54.169][P:14548/T:20620][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 22:55:54.214][P:14548/T:20620][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0ED70000
+
+[2021-06-15 22:55:54.272][P:14548/T:20620][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2021-06-15 22:55:56.898][P:14548/T:20700][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F08EB14.]
+[2021-06-15 22:55:56.905][P:14548/T:18064][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F2CEBD8.]
+[2021-06-15 22:55:57.375][P:14548/T:18064][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195493880.]
+[2021-06-15 22:55:57.377][P:14548/T:18064][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195493880. nChannelID=0. rType=0]
+[2021-06-15 22:55:57.917][P:14548/T:18064][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:55:58.005][P:14548/T:18064][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195577768]
+[2021-06-15 22:55:58.007][P:14548/T:18064][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=195493880, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05A4380E, dwUser=0BA6FFF8, Reserved=00000000.]
+[2021-06-15 22:55:58.008][P:14548/T:18064][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 22:55:58.128][P:14548/T:18064][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:55:58.317][P:14548/T:18064][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=195585096.]
+[2021-06-15 22:55:58.870][P:14548/T:20700][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195744136.]
+[2021-06-15 22:55:58.873][P:14548/T:20700][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195744136. nChannelID=0. rType=0]
+[2021-06-15 22:56:00.002][P:14548/T:20700][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:56:00.422][P:14548/T:20700][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=258006472]
+[2021-06-15 22:56:00.424][P:14548/T:20700][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195744136, pInParam=0F08EBD0, pOutParam=0F08EDA8, nWaitTime=5000.]
+[2021-06-15 22:56:00.786][P:14548/T:20700][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:56:00.788][P:14548/T:20700][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:56:00.788][P:14548/T:20700][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:56:00.790][P:14548/T:20700][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=258006472.]
+[2021-06-15 22:56:00.790][P:14548/T:20700][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:56:00.790][P:14548/T:20700][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195744136.]
+[2021-06-15 22:56:00.791][P:14548/T:20700][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:56:00.792][P:14548/T:20700][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:56:10.795][P:14548/T:20700][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F08EB14.]
+[2021-06-15 22:56:12.798][P:14548/T:20700][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195744136.]
+[2021-06-15 22:56:12.799][P:14548/T:20700][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195744136. nChannelID=0. rType=0]
+[2021-06-15 22:56:13.995][P:14548/T:20700][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:56:14.218][P:14548/T:20700][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=257939552]
+[2021-06-15 22:56:14.220][P:14548/T:20700][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195744136, pInParam=0F08EBD0, pOutParam=0F08EDA8, nWaitTime=5000.]
+[2021-06-15 22:56:14.518][P:14548/T:20700][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:56:14.518][P:14548/T:20700][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:56:14.518][P:14548/T:20700][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:56:14.528][P:14548/T:20700][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=257939552.]
+[2021-06-15 22:56:14.529][P:14548/T:20700][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:56:14.529][P:14548/T:20700][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195744136.]
+[2021-06-15 22:56:14.529][P:14548/T:20700][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:56:14.530][P:14548/T:20700][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:56:20.796][P:14548/T:20700][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F08EB14.]
+[2021-06-15 22:56:21.885][P:14548/T:20700][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=257969864.]
+[2021-06-15 22:56:21.885][P:14548/T:20700][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=257969864. nChannelID=0. rType=0]
+[2021-06-15 22:56:22.690][P:14548/T:20700][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:56:23.060][P:14548/T:20700][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=258013368]
+[2021-06-15 22:56:23.060][P:14548/T:20700][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=257969864, pInParam=0F08EBD0, pOutParam=0F08EDA8, nWaitTime=5000.]
+[2021-06-15 22:56:23.165][P:14548/T:20700][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:56:23.165][P:14548/T:20700][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:56:23.165][P:14548/T:20700][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:56:23.169][P:14548/T:20700][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=258013368.]
+[2021-06-15 22:56:23.169][P:14548/T:20700][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:56:23.169][P:14548/T:20700][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=257969864.]
+[2021-06-15 22:56:23.169][P:14548/T:20700][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:56:23.169][P:14548/T:20700][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:56:42.210][P:14548/T:19408][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0750EA54.]
+[2021-06-15 22:56:42.925][P:14548/T:19408][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195545064.]
+[2021-06-15 22:57:26.028][P:14548/T:19408][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195545064. nChannelID=0. rType=0]
+[2021-06-15 22:57:26.724][P:14548/T:19408][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:57:26.898][P:14548/T:19408][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=258013368]
+[2021-06-15 22:57:26.899][P:14548/T:19408][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195545064, pInParam=0750EB10, pOutParam=0750ECE8, nWaitTime=5000.]
+[2021-06-15 22:57:27.058][P:14548/T:19408][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:57:27.058][P:14548/T:19408][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:57:27.058][P:14548/T:19408][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:57:27.068][P:14548/T:19408][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=258013368.]
+[2021-06-15 22:57:27.068][P:14548/T:19408][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:57:27.068][P:14548/T:19408][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195545064.]
+[2021-06-15 22:57:27.068][P:14548/T:19408][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:57:27.068][P:14548/T:19408][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:58:13.261][P:14548/T:23472][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0568E394.]
+[2021-06-15 22:58:14.118][P:14548/T:23472][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195527696.]
+[2021-06-15 22:58:14.120][P:14548/T:23472][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195527696. nChannelID=0. rType=0]
+[2021-06-15 22:58:14.588][P:14548/T:23472][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:58:14.713][P:14548/T:23472][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195520880]
+[2021-06-15 22:58:14.714][P:14548/T:23472][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195527696, pInParam=0568E450, pOutParam=0568E628, nWaitTime=5000.]
+[2021-06-15 22:58:14.853][P:14548/T:23472][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:58:14.853][P:14548/T:23472][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:58:14.853][P:14548/T:23472][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:58:14.855][P:14548/T:23472][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=195520880.]
+[2021-06-15 22:58:14.856][P:14548/T:23472][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:58:14.856][P:14548/T:23472][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195527696.]
+[2021-06-15 22:58:14.856][P:14548/T:23472][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:58:14.856][P:14548/T:23472][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:58:21.764][P:14548/T:14008][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F42E974.]
+[2021-06-15 22:58:22.318][P:14548/T:14008][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195527696.]
+[2021-06-15 22:58:22.321][P:14548/T:14008][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195527696. nChannelID=0. rType=0]
+[2021-06-15 22:58:23.123][P:14548/T:14008][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:58:23.214][P:14548/T:14008][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195520880]
+[2021-06-15 22:58:23.215][P:14548/T:14008][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195527696, pInParam=0F42EA30, pOutParam=0F42EC08, nWaitTime=5000.]
+[2021-06-15 22:58:23.377][P:14548/T:14008][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:58:23.377][P:14548/T:14008][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:58:23.377][P:14548/T:14008][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:58:23.383][P:14548/T:14008][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=195520880.]
+[2021-06-15 22:58:23.383][P:14548/T:14008][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:58:23.383][P:14548/T:14008][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195527696.]
+[2021-06-15 22:58:23.384][P:14548/T:14008][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:58:23.384][P:14548/T:14008][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:58:34.653][P:14548/T:4624][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0911E394.]
+[2021-06-15 22:58:35.725][P:14548/T:4624][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195527696.]
+[2021-06-15 22:58:35.726][P:14548/T:4624][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195527696. nChannelID=0. rType=0]
+[2021-06-15 22:58:36.427][P:14548/T:4624][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:58:36.512][P:14548/T:4624][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195520880]
+[2021-06-15 22:58:36.519][P:14548/T:4624][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195527696, pInParam=0911E450, pOutParam=0911E628, nWaitTime=5000.]
+[2021-06-15 22:58:36.596][P:14548/T:4624][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:58:36.596][P:14548/T:4624][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:58:36.596][P:14548/T:4624][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:58:36.598][P:14548/T:4624][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=195520880.]
+[2021-06-15 22:58:36.598][P:14548/T:4624][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:58:36.598][P:14548/T:4624][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195527696.]
+[2021-06-15 22:58:36.598][P:14548/T:4624][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:58:36.598][P:14548/T:4624][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:58:43.035][P:14548/T:380][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0834EE24.]
+[2021-06-15 22:58:43.931][P:14548/T:380][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195527696.]
+[2021-06-15 22:58:43.932][P:14548/T:380][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195527696. nChannelID=0. rType=0]
+[2021-06-15 22:58:44.663][P:14548/T:380][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:58:44.846][P:14548/T:380][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195520880]
+[2021-06-15 22:58:44.850][P:14548/T:380][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195527696, pInParam=0834EEE0, pOutParam=0834F0B8, nWaitTime=5000.]
+[2021-06-15 22:58:44.911][P:14548/T:380][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:58:44.911][P:14548/T:380][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:58:44.911][P:14548/T:380][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:58:44.913][P:14548/T:380][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=195520880.]
+[2021-06-15 22:58:44.913][P:14548/T:380][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:58:44.913][P:14548/T:380][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195527696.]
+[2021-06-15 22:58:44.913][P:14548/T:380][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:58:44.913][P:14548/T:380][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:58:53.034][P:14548/T:25232][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0898EB84.]
+[2021-06-15 22:58:54.194][P:14548/T:25232][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=195527696.]
+[2021-06-15 22:58:54.195][P:14548/T:25232][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=195527696. nChannelID=0. rType=0]
+[2021-06-15 22:58:54.883][P:14548/T:25232][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:58:54.982][P:14548/T:25232][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=195520880]
+[2021-06-15 22:58:54.984][P:14548/T:25232][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=195527696, pInParam=0898EC40, pOutParam=0898EE18, nWaitTime=5000.]
+[2021-06-15 22:58:55.461][P:14548/T:25232][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:58:55.461][P:14548/T:25232][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:58:55.461][P:14548/T:25232][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:58:55.463][P:14548/T:25232][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=195520880.]
+[2021-06-15 22:58:55.463][P:14548/T:25232][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:58:55.463][P:14548/T:25232][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=195527696.]
+[2021-06-15 22:58:55.464][P:14548/T:25232][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:58:55.464][P:14548/T:25232][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2021-06-15 22:59:14.103
+[2021-06-15 22:59:14.103][P:10660/T:17304][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 22:59:14.116][P:10660/T:17304][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 22:59:14.162][P:10660/T:17304][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0E910000
+
+[2021-06-15 22:59:14.222][P:10660/T:17304][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2021-06-15 22:59:17.803][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 22:59:17.809][P:10660/T:23172][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EE8EBE8.]
+[2021-06-15 22:59:18.354][P:10660/T:23172][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190129760.]
+[2021-06-15 22:59:18.356][P:10660/T:23172][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190129760. nChannelID=0. rType=0]
+[2021-06-15 22:59:18.357][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190138104.]
+[2021-06-15 22:59:18.380][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190138104. nChannelID=0. rType=0]
+[2021-06-15 22:59:18.977][P:10660/T:23172][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:19.032][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:19.041][P:10660/T:23172][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190153096]
+[2021-06-15 22:59:19.042][P:10660/T:23172][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=190129760, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=055D3836, dwUser=0B552660, Reserved=00000000.]
+[2021-06-15 22:59:19.043][P:10660/T:23172][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 22:59:19.078][P:10660/T:23172][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:19.130][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190325152]
+[2021-06-15 22:59:19.134][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190138104, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 22:59:19.286][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:59:19.287][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:59:19.287][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:59:19.290][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=190325152.]
+[2021-06-15 22:59:19.290][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:59:19.291][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190138104.]
+[2021-06-15 22:59:19.291][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:59:19.291][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:59:19.303][P:10660/T:23172][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=190155816.]
+[2021-06-15 22:59:29.297][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 22:59:30.752][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190137544.]
+[2021-06-15 22:59:30.753][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190137544. nChannelID=0. rType=0]
+[2021-06-15 22:59:32.019][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:32.657][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190327728]
+[2021-06-15 22:59:32.660][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190137544, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 22:59:33.033][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:59:33.033][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:59:33.033][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:59:33.040][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=190327728.]
+[2021-06-15 22:59:33.040][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:59:33.040][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190137544.]
+[2021-06-15 22:59:33.040][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:59:33.041][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:59:39.295][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 22:59:40.675][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190137544.]
+[2021-06-15 22:59:40.676][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190137544. nChannelID=0. rType=0]
+[2021-06-15 22:59:41.770][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:42.251][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254035552]
+[2021-06-15 22:59:42.251][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190137544, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254035552.]
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:59:42.497][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190137544.]
+[2021-06-15 22:59:42.498][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:59:42.498][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:59:49.305][P:10660/T:8496][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EFCEDF4.]
+[2021-06-15 22:59:51.058][P:10660/T:8496][DevConfig.cpp:2282][Error][90002001] Protocol error it may result from network timeout
+[2021-06-15 22:59:51.183][P:10660/T:8496][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190137544.]
+[2021-06-15 22:59:51.185][P:10660/T:8496][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190137544. nChannelID=0. rType=0]
+[2021-06-15 22:59:51.988][P:10660/T:8496][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 22:59:52.188][P:10660/T:8496][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=252952080]
+[2021-06-15 22:59:52.196][P:10660/T:8496][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190137544, pInParam=0EFCEEB0, pOutParam=0EFCF088, nWaitTime=5000.]
+[2021-06-15 22:59:52.518][P:10660/T:8496][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 22:59:52.518][P:10660/T:8496][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 22:59:52.518][P:10660/T:8496][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 22:59:52.521][P:10660/T:8496][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=252952080.]
+[2021-06-15 22:59:52.521][P:10660/T:8496][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 22:59:52.521][P:10660/T:8496][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190137544.]
+[2021-06-15 22:59:52.521][P:10660/T:8496][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 22:59:52.522][P:10660/T:8496][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 22:59:59.307][P:10660/T:8496][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EFCEDF4.]
+[2021-06-15 23:00:00.454][P:10660/T:8496][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190137544.]
+[2021-06-15 23:00:00.480][P:10660/T:8496][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190137544. nChannelID=0. rType=0]
+[2021-06-15 23:00:01.315][P:10660/T:8496][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:01.534][P:10660/T:8496][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=252935648]
+[2021-06-15 23:00:01.538][P:10660/T:8496][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190137544, pInParam=0EFCEEB0, pOutParam=0EFCF088, nWaitTime=5000.]
+[2021-06-15 23:00:01.668][P:10660/T:8496][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:01.668][P:10660/T:8496][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:01.668][P:10660/T:8496][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:01.670][P:10660/T:8496][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=252935648.]
+[2021-06-15 23:00:01.671][P:10660/T:8496][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:01.671][P:10660/T:8496][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190137544.]
+[2021-06-15 23:00:01.671][P:10660/T:8496][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:01.671][P:10660/T:8496][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:00:09.304][P:10660/T:8496][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EFCEDF4.]
+[2021-06-15 23:00:10.049][P:10660/T:8496][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190137544.]
+[2021-06-15 23:00:10.050][P:10660/T:8496][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190137544. nChannelID=0. rType=0]
+[2021-06-15 23:00:10.618][P:10660/T:8496][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:10.742][P:10660/T:8496][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254035552]
+[2021-06-15 23:00:10.745][P:10660/T:8496][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190137544, pInParam=0EFCEEB0, pOutParam=0EFCF088, nWaitTime=5000.]
+[2021-06-15 23:00:10.908][P:10660/T:8496][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:10.908][P:10660/T:8496][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:10.908][P:10660/T:8496][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:10.911][P:10660/T:8496][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254035552.]
+[2021-06-15 23:00:10.911][P:10660/T:8496][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:10.911][P:10660/T:8496][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190137544.]
+[2021-06-15 23:00:10.911][P:10660/T:8496][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:10.911][P:10660/T:8496][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:00:19.324][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 23:00:20.594][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190185912.]
+[2021-06-15 23:00:20.597][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190185912. nChannelID=0. rType=0]
+[2021-06-15 23:00:20.975][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:21.073][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190169472]
+[2021-06-15 23:00:21.076][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190185912, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 23:00:21.111][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:21.111][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:21.111][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:21.119][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=190169472.]
+[2021-06-15 23:00:21.119][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:21.119][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190185912.]
+[2021-06-15 23:00:21.120][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:21.120][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:00:29.323][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 23:00:29.961][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190171520.]
+[2021-06-15 23:00:29.964][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190171520. nChannelID=0. rType=0]
+[2021-06-15 23:00:30.327][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:30.408][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190142192]
+[2021-06-15 23:00:30.425][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190171520, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 23:00:30.530][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:30.530][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:30.530][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:30.532][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=190142192.]
+[2021-06-15 23:00:30.532][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:30.532][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190171520.]
+[2021-06-15 23:00:30.532][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:30.532][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:00:39.337][P:10660/T:22396][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=07FCEC04.]
+[2021-06-15 23:00:39.736][P:10660/T:22396][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190171520.]
+[2021-06-15 23:00:39.737][P:10660/T:22396][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190171520. nChannelID=0. rType=0]
+[2021-06-15 23:00:40.114][P:10660/T:22396][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:40.161][P:10660/T:22396][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=252906592]
+[2021-06-15 23:00:40.164][P:10660/T:22396][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190171520, pInParam=07FCECC0, pOutParam=07FCEE98, nWaitTime=5000.]
+[2021-06-15 23:00:40.244][P:10660/T:22396][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:40.245][P:10660/T:22396][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:40.245][P:10660/T:22396][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:40.246][P:10660/T:22396][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=252906592.]
+[2021-06-15 23:00:40.246][P:10660/T:22396][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:40.246][P:10660/T:22396][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190171520.]
+[2021-06-15 23:00:40.247][P:10660/T:22396][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:40.247][P:10660/T:22396][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:00:49.338][P:10660/T:7156][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC4EB94.]
+[2021-06-15 23:00:49.662][P:10660/T:7156][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=190171520.]
+[2021-06-15 23:00:49.664][P:10660/T:7156][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=190171520. nChannelID=0. rType=0]
+[2021-06-15 23:00:50.102][P:10660/T:7156][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:00:50.172][P:10660/T:7156][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=190150416]
+[2021-06-15 23:00:50.175][P:10660/T:7156][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=190171520, pInParam=0EC4EC50, pOutParam=0EC4EE28, nWaitTime=5000.]
+[2021-06-15 23:00:50.257][P:10660/T:7156][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:00:50.257][P:10660/T:7156][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:00:50.257][P:10660/T:7156][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:00:50.261][P:10660/T:7156][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=190150416.]
+[2021-06-15 23:00:50.261][P:10660/T:7156][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:00:50.261][P:10660/T:7156][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=190171520.]
+[2021-06-15 23:00:50.261][P:10660/T:7156][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:00:50.262][P:10660/T:7156][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2021-06-15 23:01:02.423
+[2021-06-15 23:01:02.423][P:18280/T:14040][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 23:01:02.434][P:18280/T:14040][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:01:02.473][P:18280/T:14040][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0E800000
+
+[2021-06-15 23:01:02.532][P:18280/T:14040][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2021-06-15 23:01:12.063][P:18280/T:1856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EE7EB18.]
+[2021-06-15 23:01:12.076][P:18280/T:5320][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0ECFEAD4.]
+[2021-06-15 23:01:12.525][P:18280/T:1856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188810928.]
+[2021-06-15 23:01:12.526][P:18280/T:1856][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188810928. nChannelID=0. rType=0]
+[2021-06-15 23:01:12.552][P:18280/T:5320][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188819128.]
+[2021-06-15 23:01:12.556][P:18280/T:5320][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188819128. nChannelID=0. rType=0]
+[2021-06-15 23:01:13.044][P:18280/T:1856][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:13.120][P:18280/T:1856][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188834816]
+[2021-06-15 23:01:13.127][P:18280/T:5320][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:13.137][P:18280/T:1856][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=188810928, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=054764AE, dwUser=0B4106B0, Reserved=00000000.]
+[2021-06-15 23:01:13.138][P:18280/T:1856][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:01:13.161][P:18280/T:1856][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:13.170][P:18280/T:5320][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188851600]
+[2021-06-15 23:01:13.173][P:18280/T:5320][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188819128, pInParam=0ECFEB90, pOutParam=0ECFED68, nWaitTime=5000.]
+[2021-06-15 23:01:13.210][P:18280/T:5320][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:01:13.211][P:18280/T:5320][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:01:13.211][P:18280/T:5320][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:01:13.214][P:18280/T:5320][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188851600.]
+[2021-06-15 23:01:13.214][P:18280/T:5320][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:01:13.215][P:18280/T:5320][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188819128.]
+[2021-06-15 23:01:13.215][P:18280/T:5320][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:01:13.215][P:18280/T:5320][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:01:13.360][P:18280/T:1856][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=189028952.]
+[2021-06-15 23:01:23.221][P:18280/T:5320][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0ECFEAD4.]
+[2021-06-15 23:01:24.672][P:18280/T:5320][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188818568.]
+[2021-06-15 23:01:24.672][P:18280/T:5320][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188818568. nChannelID=0. rType=0]
+[2021-06-15 23:01:25.979][P:18280/T:5320][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:26.422][P:18280/T:5320][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=189040232]
+[2021-06-15 23:01:26.422][P:18280/T:5320][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188818568, pInParam=0ECFEB90, pOutParam=0ECFED68, nWaitTime=5000.]
+[2021-06-15 23:01:26.736][P:18280/T:5320][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:01:26.736][P:18280/T:5320][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:01:26.737][P:18280/T:5320][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:01:26.737][P:18280/T:5320][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=189040232.]
+[2021-06-15 23:01:26.737][P:18280/T:5320][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:01:26.737][P:18280/T:5320][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188818568.]
+[2021-06-15 23:01:26.738][P:18280/T:5320][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:01:26.738][P:18280/T:5320][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:01:33.222][P:18280/T:5320][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0ECFEAD4.]
+[2021-06-15 23:01:35.092][P:18280/T:5320][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188818568.]
+[2021-06-15 23:01:35.093][P:18280/T:5320][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188818568. nChannelID=0. rType=0]
+[2021-06-15 23:01:36.674][P:18280/T:5320][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:37.131][P:18280/T:5320][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=189040232]
+[2021-06-15 23:01:37.137][P:18280/T:5320][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188818568, pInParam=0ECFEB90, pOutParam=0ECFED68, nWaitTime=5000.]
+[2021-06-15 23:01:37.454][P:18280/T:5320][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:01:37.454][P:18280/T:5320][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:01:37.454][P:18280/T:5320][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:01:37.455][P:18280/T:5320][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=189040232.]
+[2021-06-15 23:01:37.455][P:18280/T:5320][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:01:37.455][P:18280/T:5320][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188818568.]
+[2021-06-15 23:01:37.455][P:18280/T:5320][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:01:37.456][P:18280/T:5320][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:01:43.234][P:18280/T:21636][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=10CAEF54.]
+[2021-06-15 23:01:44.188][P:18280/T:21636][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188818568.]
+[2021-06-15 23:01:44.189][P:18280/T:21636][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188818568. nChannelID=0. rType=0]
+[2021-06-15 23:01:45.077][P:18280/T:21636][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:45.413][P:18280/T:21636][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188851600]
+[2021-06-15 23:01:45.416][P:18280/T:21636][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188818568, pInParam=10CAF010, pOutParam=10CAF1E8, nWaitTime=5000.]
+[2021-06-15 23:01:45.824][P:18280/T:21636][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:01:45.824][P:18280/T:21636][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:01:45.824][P:18280/T:21636][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:01:45.825][P:18280/T:21636][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188851600.]
+[2021-06-15 23:01:45.825][P:18280/T:21636][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:01:45.825][P:18280/T:21636][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188818568.]
+[2021-06-15 23:01:45.826][P:18280/T:21636][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:01:45.826][P:18280/T:21636][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:01:53.259][P:18280/T:21636][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=10CAEF54.]
+[2021-06-15 23:01:55.861][P:18280/T:21636][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188818568.]
+[2021-06-15 23:01:55.865][P:18280/T:21636][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188818568. nChannelID=0. rType=0]
+[2021-06-15 23:01:56.737][P:18280/T:21636][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:01:56.981][P:18280/T:21636][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254559904]
+[2021-06-15 23:01:56.984][P:18280/T:21636][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188818568, pInParam=10CAF010, pOutParam=10CAF1E8, nWaitTime=5000.]
+[2021-06-15 23:01:57.104][P:18280/T:21636][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:01:57.105][P:18280/T:21636][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:01:57.105][P:18280/T:21636][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:01:57.106][P:18280/T:21636][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254559904.]
+[2021-06-15 23:01:57.106][P:18280/T:21636][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:01:57.106][P:18280/T:21636][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188818568.]
+[2021-06-15 23:01:57.106][P:18280/T:21636][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:01:57.106][P:18280/T:21636][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:03.257][P:18280/T:17124][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=10DAEC24.]
+[2021-06-15 23:02:03.597][P:18280/T:17124][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188818568.]
+[2021-06-15 23:02:03.598][P:18280/T:17124][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188818568. nChannelID=0. rType=0]
+[2021-06-15 23:02:04.199][P:18280/T:17124][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:04.305][P:18280/T:17124][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254559904]
+[2021-06-15 23:02:04.314][P:18280/T:17124][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188818568, pInParam=10DAECE0, pOutParam=10DAEEB8, nWaitTime=5000.]
+[2021-06-15 23:02:04.351][P:18280/T:17124][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:04.351][P:18280/T:17124][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:04.351][P:18280/T:17124][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:04.353][P:18280/T:17124][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254559904.]
+[2021-06-15 23:02:04.353][P:18280/T:17124][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:04.353][P:18280/T:17124][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188818568.]
+[2021-06-15 23:02:04.354][P:18280/T:17124][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:04.354][P:18280/T:17124][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=0.]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=0]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:20367][Info][0] Enter CLIENT_DetachVideoStatSummary. [lAttachHandle=0.]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:20374][Info][0] Leave CLIENT_DetachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=0.]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:830][Error][90010004] Failed to logout, id:0
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=0]
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:06.750][P:18280/T:14040][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000004.]
+[2021-06-15 23:02:06.752][P:18280/T:14040][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188834816.]
+[2021-06-15 23:02:06.752][P:18280/T:14040][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:06.752][P:18280/T:14040][dhnetsdk.cpp:8660][Info][0] Enter CLIENT_StopLoadPic. [lAnalyzerHandle=189028952.]
+[2021-06-15 23:02:06.752][P:18280/T:14040][dhnetsdk.cpp:8667][Info][0] Leave CLIENT_StopLoadPic. [ret=1.]
+[2021-06-15 23:02:06.752][P:18280/T:14040][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188810928.]
+[2021-06-15 23:02:06.753][P:18280/T:14040][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:06.753][P:18280/T:14040][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:16.716][P:18280/T:1856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EE7EAE4.]
+[2021-06-15 23:02:16.729][P:18280/T:24480][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F0BED18.]
+[2021-06-15 23:02:16.995][P:18280/T:24480][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188960128.]
+[2021-06-15 23:02:16.998][P:18280/T:1856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188863160.]
+[2021-06-15 23:02:16.999][P:18280/T:24480][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188960128. nChannelID=0. rType=0]
+[2021-06-15 23:02:17.050][P:18280/T:1856][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188863160. nChannelID=0. rType=0]
+[2021-06-15 23:02:17.529][P:18280/T:24480][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:17.594][P:18280/T:24480][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=189030304]
+[2021-06-15 23:02:17.596][P:18280/T:1856][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:17.597][P:18280/T:24480][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=188960128, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=054762A6, dwUser=0B434D80, Reserved=00000000.]
+[2021-06-15 23:02:17.598][P:18280/T:24480][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:02:17.646][P:18280/T:24480][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:17.668][P:18280/T:1856][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188861120]
+[2021-06-15 23:02:17.672][P:18280/T:1856][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188863160, pInParam=0EE7EBA0, pOutParam=0EE7ED78, nWaitTime=5000.]
+[2021-06-15 23:02:17.696][P:18280/T:1856][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:17.696][P:18280/T:1856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:17.696][P:18280/T:1856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:17.715][P:18280/T:1856][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188861120.]
+[2021-06-15 23:02:17.715][P:18280/T:1856][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:17.715][P:18280/T:1856][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188863160.]
+[2021-06-15 23:02:17.716][P:18280/T:24480][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=188166808.]
+[2021-06-15 23:02:17.716][P:18280/T:1856][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:17.716][P:18280/T:1856][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:27.729][P:18280/T:24480][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F0BECE4.]
+[2021-06-15 23:02:28.931][P:18280/T:24480][DevConfig.cpp:2282][Error][90002001] Protocol error it may result from network timeout
+[2021-06-15 23:02:28.990][P:18280/T:24480][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:02:28.995][P:18280/T:24480][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:02:29.755][P:18280/T:24480][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:29.832][P:18280/T:24480][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188861120]
+[2021-06-15 23:02:29.834][P:18280/T:24480][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=0F0BEDA0, pOutParam=0F0BEF78, nWaitTime=5000.]
+[2021-06-15 23:02:29.960][P:18280/T:24480][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:29.960][P:18280/T:24480][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:29.960][P:18280/T:24480][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:29.971][P:18280/T:24480][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188861120.]
+[2021-06-15 23:02:29.971][P:18280/T:24480][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:29.971][P:18280/T:24480][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:02:29.971][P:18280/T:24480][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:29.972][P:18280/T:24480][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:37.734][P:18280/T:1856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EE7EAE4.]
+[2021-06-15 23:02:38.206][P:18280/T:1856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:02:38.207][P:18280/T:1856][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:02:38.972][P:18280/T:1856][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:39.044][P:18280/T:1856][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188957432]
+[2021-06-15 23:02:39.045][P:18280/T:1856][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=0EE7EBA0, pOutParam=0EE7ED78, nWaitTime=5000.]
+[2021-06-15 23:02:39.114][P:18280/T:1856][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:39.114][P:18280/T:1856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:39.114][P:18280/T:1856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:39.115][P:18280/T:1856][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188957432.]
+[2021-06-15 23:02:39.115][P:18280/T:1856][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:39.115][P:18280/T:1856][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:02:39.116][P:18280/T:1856][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:39.116][P:18280/T:1856][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:47.743][P:18280/T:24480][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F0BECE4.]
+[2021-06-15 23:02:48.206][P:18280/T:24480][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:02:48.208][P:18280/T:24480][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:02:48.664][P:18280/T:24480][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:48.733][P:18280/T:24480][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254567360]
+[2021-06-15 23:02:48.736][P:18280/T:24480][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=0F0BEDA0, pOutParam=0F0BEF78, nWaitTime=5000.]
+[2021-06-15 23:02:48.830][P:18280/T:24480][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:48.830][P:18280/T:24480][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:48.830][P:18280/T:24480][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:48.835][P:18280/T:24480][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254567360.]
+[2021-06-15 23:02:48.835][P:18280/T:24480][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:48.835][P:18280/T:24480][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:02:48.835][P:18280/T:24480][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:48.836][P:18280/T:24480][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:02:57.753][P:18280/T:24480][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0F0BECE4.]
+[2021-06-15 23:02:58.238][P:18280/T:24480][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188863160.]
+[2021-06-15 23:02:58.248][P:18280/T:24480][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188863160. nChannelID=0. rType=0]
+[2021-06-15 23:02:58.711][P:18280/T:24480][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:02:58.813][P:18280/T:24480][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188870648]
+[2021-06-15 23:02:58.815][P:18280/T:24480][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188863160, pInParam=0F0BEDA0, pOutParam=0F0BEF78, nWaitTime=5000.]
+[2021-06-15 23:02:58.842][P:18280/T:24480][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:02:58.842][P:18280/T:24480][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:02:58.842][P:18280/T:24480][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:02:58.852][P:18280/T:24480][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188870648.]
+[2021-06-15 23:02:58.852][P:18280/T:24480][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:02:58.852][P:18280/T:24480][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188863160.]
+[2021-06-15 23:02:58.853][P:18280/T:24480][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:02:58.853][P:18280/T:24480][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:03:07.749][P:18280/T:1856][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EE7EAE4.]
+[2021-06-15 23:03:08.419][P:18280/T:1856][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:03:08.421][P:18280/T:1856][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:03:09.239][P:18280/T:1856][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:03:10.334][P:18280/T:1856][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188870648]
+[2021-06-15 23:03:10.336][P:18280/T:1856][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=0EE7EBA0, pOutParam=0EE7ED78, nWaitTime=5000.]
+[2021-06-15 23:03:10.497][P:18280/T:1856][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:10.497][P:18280/T:1856][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:03:10.498][P:18280/T:1856][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:03:10.499][P:18280/T:1856][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188870648.]
+[2021-06-15 23:03:10.500][P:18280/T:1856][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:03:10.500][P:18280/T:1856][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:03:10.500][P:18280/T:1856][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:03:10.500][P:18280/T:1856][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:03:17.748][P:18280/T:17124][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=10DAEC24.]
+[2021-06-15 23:03:18.127][P:18280/T:17124][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188969184.]
+[2021-06-15 23:03:18.131][P:18280/T:17124][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188969184. nChannelID=0. rType=0]
+[2021-06-15 23:03:18.674][P:18280/T:17124][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:03:18.746][P:18280/T:17124][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188861120]
+[2021-06-15 23:03:18.749][P:18280/T:17124][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188969184, pInParam=10DAECE0, pOutParam=10DAEEB8, nWaitTime=5000.]
+[2021-06-15 23:03:18.782][P:18280/T:17124][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:18.782][P:18280/T:17124][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:03:18.782][P:18280/T:17124][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:03:18.790][P:18280/T:17124][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188861120.]
+[2021-06-15 23:03:18.790][P:18280/T:17124][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:03:18.790][P:18280/T:17124][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188969184.]
+[2021-06-15 23:03:18.791][P:18280/T:17124][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:03:18.791][P:18280/T:17124][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:03:27.754][P:18280/T:9068][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=11C5E914.]
+[2021-06-15 23:03:28.168][P:18280/T:9068][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=188969184.]
+[2021-06-15 23:03:28.169][P:18280/T:9068][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=188969184. nChannelID=0. rType=0]
+[2021-06-15 23:03:28.569][P:18280/T:9068][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:03:28.642][P:18280/T:9068][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254555176]
+[2021-06-15 23:03:28.643][P:18280/T:9068][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=188969184, pInParam=11C5E9D0, pOutParam=11C5EBA8, nWaitTime=5000.]
+[2021-06-15 23:03:28.743][P:18280/T:9068][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:28.743][P:18280/T:9068][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:03:28.743][P:18280/T:9068][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:03:28.748][P:18280/T:9068][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254555176.]
+[2021-06-15 23:03:28.748][P:18280/T:9068][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:03:28.748][P:18280/T:9068][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=188969184.]
+[2021-06-15 23:03:28.748][P:18280/T:9068][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:03:28.749][P:18280/T:9068][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:03:37.781][P:18280/T:17124][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=10DAEC24.]
+[2021-06-15 23:03:38.438][P:18280/T:17124][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:03:38.443][P:18280/T:17124][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:03:38.789][P:18280/T:17124][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:03:38.964][P:18280/T:17124][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=188959256]
+[2021-06-15 23:03:38.974][P:18280/T:17124][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=10DAECE0, pOutParam=10DAEEB8, nWaitTime=5000.]
+[2021-06-15 23:03:39.001][P:18280/T:17124][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:39.001][P:18280/T:17124][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:03:39.001][P:18280/T:17124][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:03:39.021][P:18280/T:17124][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=188959256.]
+[2021-06-15 23:03:39.022][P:18280/T:17124][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:03:39.022][P:18280/T:17124][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:03:39.022][P:18280/T:17124][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:03:39.022][P:18280/T:17124][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:03:47.770][P:18280/T:21852][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=11B5EAD4.]
+[2021-06-15 23:03:48.317][P:18280/T:21852][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=189005568.]
+[2021-06-15 23:03:48.318][P:18280/T:21852][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=189005568. nChannelID=0. rType=0]
+[2021-06-15 23:03:49.152][P:18280/T:21852][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:03:49.248][P:18280/T:21852][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=254555176]
+[2021-06-15 23:03:49.253][P:18280/T:21852][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=189005568, pInParam=11B5EB90, pOutParam=11B5ED68, nWaitTime=5000.]
+[2021-06-15 23:03:49.312][P:18280/T:21852][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:49.314][P:18280/T:21852][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:03:49.314][P:18280/T:21852][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=254555176.]
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:20367][Info][0] Enter CLIENT_DetachVideoStatSummary. [lAttachHandle=0.]
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:20374][Info][0] Leave CLIENT_DetachVideoStatSummary. [ret=0]
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=189005568.]
+[2021-06-15 23:03:49.315][P:18280/T:14040][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:03:49.315][P:18280/T:14040][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2021-06-15 23:04:38.159
+[2021-06-15 23:04:38.159][P:4744/T:1892][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 23:04:38.172][P:4744/T:1892][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:04:38.211][P:4744/T:1892][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0EE20000
+
+[2021-06-15 23:04:38.270][P:4744/T:1892][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+Begin Time:2021-06-15 23:05:04.272
+[2021-06-15 23:05:04.272][P:17288/T:6224][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 23:05:04.283][P:17288/T:6224][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:05:04.327][P:17288/T:6224][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0F380000
+
+[2021-06-15 23:05:04.385][P:17288/T:6224][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2021-06-15 23:05:06.454][P:17288/T:18044][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=07B8EFB4.]
+[2021-06-15 23:05:06.458][P:17288/T:11088][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=07DCEDC8.]
+[2021-06-15 23:05:06.951][P:17288/T:18044][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=201081720.]
+[2021-06-15 23:05:06.968][P:17288/T:18044][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=201081720. nChannelID=0. rType=0]
+[2021-06-15 23:05:07.019][P:17288/T:11088][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=201090112.]
+[2021-06-15 23:05:07.020][P:17288/T:11088][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=201090112. nChannelID=0. rType=0]
+[2021-06-15 23:05:07.523][P:17288/T:18044][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:05:07.610][P:17288/T:18044][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=201166584]
+[2021-06-15 23:05:07.611][P:17288/T:18044][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=201081720, pInParam=07B8F070, pOutParam=07B8F248, nWaitTime=5000.]
+[2021-06-15 23:05:07.705][P:17288/T:18044][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:05:07.705][P:17288/T:18044][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:05:07.705][P:17288/T:18044][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:05:07.706][P:17288/T:18044][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=201166584.]
+[2021-06-15 23:05:07.706][P:17288/T:18044][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:05:07.706][P:17288/T:18044][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=201081720.]
+[2021-06-15 23:05:07.707][P:17288/T:18044][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:05:07.707][P:17288/T:18044][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:05:07.822][P:17288/T:11088][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:05:07.911][P:17288/T:11088][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=200418032]
+[2021-06-15 23:05:07.914][P:17288/T:11088][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=201090112, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=05F938AE, dwUser=0BFC6440, Reserved=00000000.]
+[2021-06-15 23:05:07.916][P:17288/T:11088][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:05:08.028][P:17288/T:11088][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:05:08.395][P:17288/T:11088][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=201249200.]
+[2021-06-15 23:05:30.370][P:17288/T:6872][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=12C2EB54.]
+[2021-06-15 23:05:31.530][P:17288/T:6872][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=201081720.]
+[2021-06-15 23:05:31.530][P:17288/T:6872][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=201081720. nChannelID=0. rType=0]
+[2021-06-15 23:05:32.994][P:17288/T:6872][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:05:33.638][P:17288/T:6872][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=201263016]
+[2021-06-15 23:05:33.641][P:17288/T:6872][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=201081720, pInParam=12C2EC10, pOutParam=12C2EDE8, nWaitTime=5000.]
+[2021-06-15 23:05:33.769][P:17288/T:6872][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:05:33.769][P:17288/T:6872][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:05:33.769][P:17288/T:6872][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:05:33.771][P:17288/T:6872][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=201263016.]
+[2021-06-15 23:05:33.771][P:17288/T:6872][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:05:33.771][P:17288/T:6872][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=201081720.]
+[2021-06-15 23:05:33.771][P:17288/T:6872][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:05:33.771][P:17288/T:6872][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:05:48.371][P:17288/T:16096][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=142AE0C4.]
+[2021-06-15 23:05:49.143][P:17288/T:16096][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=201081720.]
+[2021-06-15 23:05:49.144][P:17288/T:16096][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=201081720. nChannelID=0. rType=0]
+[2021-06-15 23:05:50.170][P:17288/T:16096][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:05:50.404][P:17288/T:16096][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=201263016]
+[2021-06-15 23:05:50.410][P:17288/T:16096][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=201081720, pInParam=142AE180, pOutParam=142AE358, nWaitTime=5000.]
+[2021-06-15 23:05:50.535][P:17288/T:16096][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:05:50.535][P:17288/T:16096][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:05:50.535][P:17288/T:16096][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:05:50.535][P:17288/T:16096][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=201263016.]
+[2021-06-15 23:05:50.536][P:17288/T:16096][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:05:50.536][P:17288/T:16096][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=201081720.]
+[2021-06-15 23:05:50.536][P:17288/T:16096][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:05:50.536][P:17288/T:16096][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2021-06-15 23:06:01.449
+[2021-06-15 23:06:01.450][P:15432/T:6120][Talk.cpp:200][Error][90000000] LoadArmEncDll armenc_vs2010_md32_dll.dll failed.
+[2021-06-15 23:06:01.464][P:15432/T:6120][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:06:01.503][P:15432/T:6120][AVNetSDKMgr.cpp:655][Info][0] Test avnetsdk module handle: 0E6F0000
+
+[2021-06-15 23:06:01.561][P:15432/T:6120][dhnetsdk.cpp:155][Info][0] Leave CLIENT_InitEx.
+[2021-06-15 23:06:05.933][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:06:05.944][P:15432/T:13144][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC5E9C8.]
+[2021-06-15 23:06:06.322][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772704.]
+[2021-06-15 23:06:06.324][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772704. nChannelID=0. rType=0]
+[2021-06-15 23:06:06.353][P:15432/T:13144][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187780952.]
+[2021-06-15 23:06:06.354][P:15432/T:13144][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187780952. nChannelID=0. rType=0]
+[2021-06-15 23:06:06.864][P:15432/T:13144][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:06.916][P:15432/T:13144][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=250974160]
+[2021-06-15 23:06:06.917][P:15432/T:13144][dhnetsdk.cpp:8628][Info][0] Enter CLIENT_RealLoadPictureEx. [lLoginID=187780952, nChannelID=0, dwAlarmType=1, bNeedPicFile=1, cbAnalyzerData=053C38D6, dwUser=0B314F58, Reserved=00000000.]
+[2021-06-15 23:06:06.918][P:15432/T:13144][Utils.cpp:4792][Info][0] mutil NIC client
+[2021-06-15 23:06:06.919][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:06.963][P:15432/T:13144][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:06.965][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=187989232]
+[2021-06-15 23:06:06.966][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772704, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:06:07.057][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:07.057][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:07.057][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:07.059][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=187989232.]
+[2021-06-15 23:06:07.059][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:07.059][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772704.]
+[2021-06-15 23:06:07.060][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:07.060][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:06:07.146][P:15432/T:13144][dhnetsdk.cpp:8647][Info][0] Leave CLIENT_RealLoadPictureEx. [ret=187883984.]
+[2021-06-15 23:06:17.073][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:06:17.543][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:06:17.544][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:06:18.096][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:18.165][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=187989232]
+[2021-06-15 23:06:18.165][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:06:18.285][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:18.285][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:18.285][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:18.288][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=187989232.]
+[2021-06-15 23:06:18.289][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:18.289][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:06:18.289][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:18.289][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:06:27.067][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:06:27.474][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:06:27.475][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:06:27.829][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:27.939][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=187808104]
+[2021-06-15 23:06:27.947][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:06:28.023][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:28.023][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:28.023][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:28.023][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=187808104.]
+[2021-06-15 23:06:28.024][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:28.024][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:06:28.024][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:28.024][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:06:37.074][P:15432/T:23264][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06E9ED34.]
+[2021-06-15 23:06:37.538][P:15432/T:23264][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:06:37.545][P:15432/T:23264][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:06:38.244][P:15432/T:23264][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:38.282][P:15432/T:23264][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251996088]
+[2021-06-15 23:06:38.282][P:15432/T:23264][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06E9EDF0, pOutParam=06E9EFC8, nWaitTime=5000.]
+[2021-06-15 23:06:38.334][P:15432/T:23264][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:38.334][P:15432/T:23264][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:38.334][P:15432/T:23264][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:38.335][P:15432/T:23264][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251996088.]
+[2021-06-15 23:06:38.335][P:15432/T:23264][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:38.335][P:15432/T:23264][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:06:38.336][P:15432/T:23264][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:38.336][P:15432/T:23264][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:06:47.071][P:15432/T:23264][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06E9ED34.]
+[2021-06-15 23:06:47.448][P:15432/T:23264][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:06:47.452][P:15432/T:23264][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:06:47.872][P:15432/T:23264][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:47.946][P:15432/T:23264][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251996088]
+[2021-06-15 23:06:47.948][P:15432/T:23264][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06E9EDF0, pOutParam=06E9EFC8, nWaitTime=5000.]
+[2021-06-15 23:06:48.097][P:15432/T:23264][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:48.097][P:15432/T:23264][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:48.097][P:15432/T:23264][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:48.100][P:15432/T:23264][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251996088.]
+[2021-06-15 23:06:48.101][P:15432/T:23264][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:48.101][P:15432/T:23264][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:06:48.101][P:15432/T:23264][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:48.101][P:15432/T:23264][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:06:57.214][P:15432/T:13528][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06FDEA64.]
+[2021-06-15 23:06:58.187][P:15432/T:13528][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:06:58.190][P:15432/T:13528][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:06:58.817][P:15432/T:13528][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:06:58.987][P:15432/T:13528][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=250975856]
+[2021-06-15 23:06:58.989][P:15432/T:13528][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06FDEB20, pOutParam=06FDECF8, nWaitTime=5000.]
+[2021-06-15 23:06:59.065][P:15432/T:13528][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:06:59.065][P:15432/T:13528][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:06:59.065][P:15432/T:13528][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:06:59.067][P:15432/T:13528][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=250975856.]
+[2021-06-15 23:06:59.067][P:15432/T:13528][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:06:59.067][P:15432/T:13528][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:06:59.067][P:15432/T:13528][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:06:59.067][P:15432/T:13528][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:07:07.111][P:15432/T:13528][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06FDEA64.]
+[2021-06-15 23:07:07.769][P:15432/T:13528][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:07:07.772][P:15432/T:13528][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:07:08.338][P:15432/T:13528][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:07:08.403][P:15432/T:13528][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=250969416]
+[2021-06-15 23:07:08.404][P:15432/T:13528][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06FDEB20, pOutParam=06FDECF8, nWaitTime=5000.]
+[2021-06-15 23:07:08.487][P:15432/T:13528][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:07:08.487][P:15432/T:13528][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:07:08.487][P:15432/T:13528][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:07:08.491][P:15432/T:13528][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=250969416.]
+[2021-06-15 23:07:08.491][P:15432/T:13528][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:07:08.491][P:15432/T:13528][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:07:08.491][P:15432/T:13528][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:07:08.491][P:15432/T:13528][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:07:17.107][P:15432/T:23264][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06E9ED34.]
+[2021-06-15 23:07:17.805][P:15432/T:23264][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:07:17.806][P:15432/T:23264][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:07:18.314][P:15432/T:23264][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:07:18.375][P:15432/T:23264][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=250969416]
+[2021-06-15 23:07:18.377][P:15432/T:23264][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06E9EDF0, pOutParam=06E9EFC8, nWaitTime=5000.]
+[2021-06-15 23:07:18.433][P:15432/T:23264][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:07:18.433][P:15432/T:23264][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:07:18.433][P:15432/T:23264][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:07:18.434][P:15432/T:23264][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=250969416.]
+[2021-06-15 23:07:18.435][P:15432/T:23264][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:07:18.435][P:15432/T:23264][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:07:18.435][P:15432/T:23264][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:07:18.436][P:15432/T:23264][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:07:27.118][P:15432/T:23264][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=06E9ED34.]
+[2021-06-15 23:07:27.594][P:15432/T:23264][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:07:27.600][P:15432/T:23264][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:07:28.320][P:15432/T:23264][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:07:28.416][P:15432/T:23264][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=187960144]
+[2021-06-15 23:07:28.416][P:15432/T:23264][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=06E9EDF0, pOutParam=06E9EFC8, nWaitTime=5000.]
+[2021-06-15 23:07:28.445][P:15432/T:23264][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:07:28.445][P:15432/T:23264][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:07:28.445][P:15432/T:23264][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:07:28.450][P:15432/T:23264][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=187960144.]
+[2021-06-15 23:07:28.450][P:15432/T:23264][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:07:28.450][P:15432/T:23264][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:07:28.451][P:15432/T:23264][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:07:28.451][P:15432/T:23264][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:08:44.096][P:15432/T:13144][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EC5E994.]
+[2021-06-15 23:08:44.437][P:15432/T:13144][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:08:47.630][P:15432/T:13144][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:08:48.119][P:15432/T:13144][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:08:48.173][P:15432/T:13144][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251994080]
+[2021-06-15 23:08:48.174][P:15432/T:13144][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EC5EA50, pOutParam=0EC5EC28, nWaitTime=5000.]
+[2021-06-15 23:08:48.258][P:15432/T:13144][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:08:48.258][P:15432/T:13144][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:08:48.258][P:15432/T:13144][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:08:48.259][P:15432/T:13144][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251994080.]
+[2021-06-15 23:08:48.259][P:15432/T:13144][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:08:48.259][P:15432/T:13144][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:08:48.259][P:15432/T:13144][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:08:48.259][P:15432/T:13144][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:08:54.054][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:08:54.557][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:08:54.560][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:08:55.002][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:08:55.070][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251994080]
+[2021-06-15 23:08:55.071][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:08:55.183][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:08:55.183][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:08:55.183][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:08:55.186][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251994080.]
+[2021-06-15 23:08:55.186][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:08:55.186][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:08:55.187][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:08:55.187][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:09:04.055][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:09:04.413][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:09:04.416][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:09:04.916][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:09:04.976][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251994080]
+[2021-06-15 23:09:04.979][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:09:05.005][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:09:05.005][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:09:05.005][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:09:05.017][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251994080.]
+[2021-06-15 23:09:05.017][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:09:05.017][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:09:05.018][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:09:05.018][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:09:17.886][P:15432/T:24204][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=04FDEC64.]
+[2021-06-15 23:09:18.466][P:15432/T:24204][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:11:13.546][P:15432/T:23672][IntelligentDevice.cpp:995][Info][0] RealLoadPicture INFO,[12397][0]
+[2021-06-15 23:11:22.149][P:15432/T:24204][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:11:22.893][P:15432/T:24204][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:11:22.987][P:15432/T:24204][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251994080]
+[2021-06-15 23:11:22.990][P:15432/T:24204][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=04FDED20, pOutParam=04FDEEF8, nWaitTime=5000.]
+[2021-06-15 23:11:23.054][P:15432/T:24204][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:11:23.054][P:15432/T:24204][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:11:23.054][P:15432/T:24204][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:11:23.066][P:15432/T:24204][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251994080.]
+[2021-06-15 23:11:23.066][P:15432/T:24204][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:11:23.066][P:15432/T:24204][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:11:23.067][P:15432/T:24204][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:11:23.067][P:15432/T:24204][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:11:32.625][P:15432/T:8444][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=0EA1EA44.]
+[2021-06-15 23:11:33.213][P:15432/T:8444][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:11:33.217][P:15432/T:8444][dhnetsdk.cpp:1024][Info][0] Enter CLIENT_RealPlayEx. [lLoginID=187772680. nChannelID=0. rType=0]
+[2021-06-15 23:11:34.323][P:15432/T:8444][DevConfigEx.cpp:9721][Info][0] IN SetupSession PORT=0 and PORT: 37777
+[2021-06-15 23:11:34.557][P:15432/T:8444][dhnetsdk.cpp:1085][Info][0] Leave CLIENT_RealPlayEx. [ret=251994080]
+[2021-06-15 23:11:34.563][P:15432/T:8444][dhnetsdk.cpp:20342][Info][0] Enter CLIENT_AttachVideoStatSummary. [lLoginID=187772680, pInParam=0EA1EB00, pOutParam=0EA1ECD8, nWaitTime=5000.]
+[2021-06-15 23:11:34.771][P:15432/T:8444][dhnetsdk.cpp:20354][Info][0] Leave CLIENT_AttachVideoStatSummary. [ret=0]
+[2021-06-15 23:11:34.771][P:15432/T:8444][dhnetsdk.cpp:6505][Info][0] Enter CLIENT_GetLastError.
+[2021-06-15 23:11:34.771][P:15432/T:8444][dhnetsdk.cpp:6508][Info][0] Leave CLIENT_GetLastError.[Error code=80000181.]
+[2021-06-15 23:11:34.780][P:15432/T:8444][dhnetsdk.cpp:1518][Info][0] Enter CLIENT_StopRealPlayEx. [lRealHandle=251994080.]
+[2021-06-15 23:11:34.780][P:15432/T:8444][dhnetsdk.cpp:1532][Info][0] Leave CLIENT_StopRealPlayEx. [ret=1]
+[2021-06-15 23:11:34.780][P:15432/T:8444][dhnetsdk.cpp:811][Info][0] Enter CLIENT_Logout. [lLoginID=187772680.]
+[2021-06-15 23:11:34.781][P:15432/T:8444][TPTCPClient.cpp:514][Error][90010007] Device is not online, ip:221.182.126.73
+[2021-06-15 23:11:34.781][P:15432/T:8444][dhnetsdk.cpp:833][Info][0] Leave CLIENT_Logout. [ret=1]
+[2021-06-15 23:11:47.436][P:15432/T:24204][dhnetsdk.cpp:582][Info][0] Enter CLIENT_LoginEx2. [IP=221.182.126.73, port=37777, SpeCap=0, lpDeviceInfo=04FDEC64.]
+[2021-06-15 23:11:48.757][P:15432/T:24204][dhnetsdk.cpp:618][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=187772680.]
+[2021-06-15 23:13:18.650][P:15432/T:20168][TcpSocket.cpp:818][Error][90010017] Heartbeat failed, second:60
+[2021-06-15 23:15:10.278][P:15432/T:13496][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2960
+[2021-06-15 23:15:10.278][P:15432/T:13496][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2021-06-15 23:15:10.278][P:15432/T:8656][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:0, connId:2300
+[2021-06-15 23:15:10.278][P:15432/T:8656][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777
+[2021-06-15 23:15:14.692][P:15432/T:13496][TPIOCPMultiplexer.cpp:155][Error][90002007] iocp disconnected by remote host or something:GetLastError:997, connId:2344
+[2021-06-15 23:15:14.693][P:15432/T:13496][TPTCPClient.cpp:170][Info][90010007] Disconnect, ip:221.182.126.73, port is 37777

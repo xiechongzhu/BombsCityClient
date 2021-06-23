@@ -10,5 +10,6 @@ namespace BombsCityClient.DataStruct
     {
         public int Detained { get; set; }
         public int Entered { get; set; }
+        public int Leaved { get; set; }
     }
 }

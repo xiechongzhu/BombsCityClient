@@ -40,6 +40,7 @@ namespace BombsCityClient
         public String RtPeopleUrl { get; set; }
         public String ParkingUrl { get; set; }
         public ParkingCameraCfg parkingCameraCfg { get; set; }
+        public String ZytfUrl { get; set; }
 
         private GlobalConfig()
         {
@@ -66,6 +67,7 @@ namespace BombsCityClient
                 __instance.RtPeopleUrl = __config.RtPeopleUrl;
                 __instance.ParkingUrl = __config.ParkingUrl;
                 __instance.parkingCameraCfg = __config.parkingCameraCfg;
+                __instance.ZytfUrl = __config.ZytfUrl;
                 file.Close();
             }
             catch(Exception)

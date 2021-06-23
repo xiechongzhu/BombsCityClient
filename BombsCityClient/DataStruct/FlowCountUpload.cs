@@ -22,4 +22,14 @@ namespace BombsCityClient.DataStruct
         }
         public List<FlowInfo> data { get; set; }
     }
+
+    public class ZytfFlowUploadInfo
+    {
+        public String resourceType { get; set; }
+        public String resourceCode { get; set; }
+        public String total { get; set; }
+        public String realOutNumber { get; set; }
+        public String pushTime { get; set; }
+        public String sourceType { get; set; }
+    }
 }

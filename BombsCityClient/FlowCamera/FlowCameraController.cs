@@ -159,6 +159,7 @@ namespace BombsCityClient.FlowCamera
                 NET_VIDEOSTAT_SUMMARY info = (NET_VIDEOSTAT_SUMMARY)Marshal.PtrToStructure(pBuf, typeof(NET_VIDEOSTAT_SUMMARY));
                 flowCount.Detained = info.stuEnteredSubtotal.nToday - info.stuExitedSubtotal.nToday;
                 flowCount.Entered = info.stuEnteredSubtotal.nToday;
+                flowCount.Leaved = info.stuExitedSubtotal.nToday;
             }
         }
 
