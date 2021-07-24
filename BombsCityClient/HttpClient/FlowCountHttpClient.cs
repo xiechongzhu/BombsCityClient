@@ -15,8 +15,8 @@ namespace BombsCityClient.HttpClient
 {
     public class FlowCountHttpClient
     {
-        protected String AES_KEY = "123456";
-        protected String AES_IV = "123456";
+        protected String AES_KEY = "js7ksl3nhnfivl4m";
+        protected String AES_IV = "3859345501849051";
 
         protected delegate void UploadFlowCountsDelegate(List<FlowCount> flowCounts);
 
@@ -99,7 +99,7 @@ namespace BombsCityClient.HttpClient
             ZytfFlowUploadInfo zytfFlowUploadInfo = new ZytfFlowUploadInfo
             {
                 resourceType = "scenery",
-                resourceCode = GlobalConfig.GetInstance().ResourceCode,
+                resourceCode = "A51072549065",
                 total = entered.ToString(),
                 realOutNumber = leaved.ToString(),
                 pushTime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"),
@@ -132,7 +132,7 @@ namespace BombsCityClient.HttpClient
                 }
                 else
                 {
-                    Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, "推送智游天府人流量数据成功");
+                    Logger.GetInstance().Log(Logger.LOG_LEVEL.LOG_INFO, String.Format("推送智游天府人流量数据成功,入园={0},出园={1}", entered, leaved));
                 }
             }
             catch(Exception e)
@@ -141,11 +141,37 @@ namespace BombsCityClient.HttpClient
             }
         }
 
-        public static string AESEncrypt(String Data, String Key, String Vector)
+        public static string ToHexString(byte[] bytes)
+
+        {
+            string hexString = string.Empty;
+
+            if (bytes != null)
+
+            {
+
+                StringBuilder strB = new StringBuilder();
+
+                for (int i = 0; i < bytes.Length; i++)
+
+                {
+
+                    strB.Append(bytes[i].ToString("X2"));
+
+                }
+
+                hexString = strB.ToString();
+
+            }
+            return hexString;
+
+        }
+
+        public string AESEncrypt(String Data, String Key, String Vector)
         {
             Byte[] plainBytes = Encoding.UTF8.GetBytes(Data);
 
-            Byte[] bKey = new Byte[32];
+            Byte[] bKey = new Byte[16];
             Array.Copy(Encoding.UTF8.GetBytes(Key.PadRight(bKey.Length)), bKey, bKey.Length);
             Byte[] bVector = new Byte[16];
             Array.Copy(Encoding.UTF8.GetBytes(Vector.PadRight(bVector.Length)), bVector, bVector.Length);
@@ -153,8 +179,8 @@ namespace BombsCityClient.HttpClient
             Byte[] Cryptograph = null; // 加密后的密文
 
             Rijndael Aes = Rijndael.Create();
-            Aes.Padding = PaddingMode.ISO10126;
             Aes.Mode = CipherMode.CBC;
+            Aes.Padding = PaddingMode.ISO10126;
             try
             {
                 // 开辟一块内存流
@@ -178,7 +204,7 @@ namespace BombsCityClient.HttpClient
                 Cryptograph = null;
             }
 
-            return Convert.ToBase64String(Cryptograph);
+            return ToHexString(Cryptograph);
         }
     }
 }

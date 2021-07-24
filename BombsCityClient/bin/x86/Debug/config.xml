@@ -3,7 +3,21 @@
   <FlowCamCfgList>
     <FlowCamCfg>
       <IpAddress>221.182.126.73</IpAddress>
-      <Port>37777</Port>
+      <Port>14501</Port>
+      <Description />
+      <UserName>admin</UserName>
+      <Password>admin123</Password>
+    </FlowCamCfg>
+    <FlowCamCfg>
+      <IpAddress>221.182.126.73</IpAddress>
+      <Port>14401</Port>
+      <Description />
+      <UserName>admin</UserName>
+      <Password>admin123</Password>
+    </FlowCamCfg>
+    <FlowCamCfg>
+      <IpAddress>221.182.126.73</IpAddress>
+      <Port>14601</Port>
       <Description />
       <UserName>admin</UserName>
       <Password>admin123</Password>
@@ -23,5 +37,5 @@
     <LaneIn>1</LaneIn>
     <LaneOut>2</LaneOut>
   </parkingCameraCfg>
-  <ZytfUrl>http://sclyj-jrtb.dev.daqsoft.com/push/big/screen/entrance/guard</ZytfUrl>
+  <ZytfUrl>http://zhgl.tsichuan.com/push/big/screen/entrance/guard</ZytfUrl>
 </GlobalConfig>

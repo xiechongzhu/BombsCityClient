@@ -12,11 +12,6 @@ D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\NetSDKCS.dll
 D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.CopyComplete
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\System.Web.Extensions.dll
 D:\Git\BombsCityClient\BombsCityClient\obj\x86\Debug\BombsCityClient.csproj.CoreCompileInputs.cache
-D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\DevExpress.Data.v19.2.dll
-D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\DevExpress.Printing.v19.2.Core.dll
-D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\DevExpress.Sparkline.v19.2.Core.dll
-D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\DevExpress.Utils.v19.2.dll
-D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\DevExpress.XtraEditors.v19.2.dll
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\EntityFramework.dll
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\EntityFramework.SqlServer.dll
 D:\Git\BombsCityClient\BombsCityClient\bin\x86\Debug\System.Data.SQLite.dll
